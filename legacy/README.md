@@ -83,19 +83,20 @@ Important:
 ---
 </details>
 
-> **Legacy notice**  
-> This page is the original WFGY 1.0 “Civilization Starter” README.  
-> For the current flagship, please start from:  
+> **Legacy Notice**  
+> This page reflects the original WFGY 1.0 stage — an early exploration phase of the project.  
+> It contains conceptual narratives, experimental mathematical sketches, and creative reasoning demonstrations developed during the initial research cycle.  
+> 
+> The style and presentation in this section are intentionally exploratory and, at times, metaphor-driven.  
+> It should not be interpreted as a finalized engineering specification, production-ready SDK, or formally peer-reviewed scientific publication.  
+> 
+> WFGY has since evolved toward more structured, diagnostic, and system-oriented frameworks.
+> 
+> For current, engineering-focused and operational components, please refer to:  
 > • [WFGY 3.0 · Singularity Demo (Event Horizon)](https://github.com/onestardao/WFGY/blob/main/TensionUniverse/EventHorizon/README.md)  
 > • [WFGY Core (Engine 2.0)](https://github.com/onestardao/WFGY/blob/main/core/README.md)  
+> • [Problem Map Documentation](https://github.com/onestardao/WFGY/tree/main/ProblemMap)  
 > • [Starter Village (Newcomer Walkthrough)](https://github.com/onestardao/WFGY/blob/main/StarterVillage/README.md)
-
-# WFGY 1.0 (Legacy): Civilization Starter — The WanFaGuiYi Engine  
-
-> ⚠️ Engineering Scope Clarification  
-> This legacy page mixes research narrative, experimental prototypes, and creative prompt showcases.  
-> It should not be interpreted as a production-grade SDK specification or a peer-reviewed scientific claim.  
-> For strictly engineering-focused components, refer to `core/` and the Problem Map documentation.
 
 ## Original PDF-based self-healing demo behind the [Real $1M-level](https://github.com/onestardao/WFGY/blob/main/value_manifest/README.md) reasoning manifesto. For the latest engine and 3.0 Singularity suite, use the links above.
 

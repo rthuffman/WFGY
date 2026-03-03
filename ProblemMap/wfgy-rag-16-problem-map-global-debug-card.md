@@ -284,6 +284,8 @@ Later waves are expected to:
 <details>
 <summary><b>Do I need all four objects `(Q, E, P, A)` to use the Global Debug Card?</b></summary>
 
+<br>
+
 The best results come from having all four objects:
 
 - `Q` = user question
@@ -307,6 +309,8 @@ In short: all four objects are ideal, but partial inputs can still be useful for
 
 <details>
 <summary><b>Can the Global Debug Card partially automate RAG debugging?</b></summary>
+
+<br>
 
 Yes, partially.
 
@@ -332,6 +336,8 @@ The goal is to turn messy debugging into a repeatable protocol.
 
 <details>
 <summary><b>Can tools like OpenClaw use this card to automatically resolve RAG issues?</b></summary>
+
+<br>
 
 Yes, for some classes of issues.
 
@@ -369,6 +375,8 @@ Harder cases, such as long-horizon reasoning errors or deep architectural flaws,
 <details>
 <summary><b>What can the first Colab MVP actually automate?</b></summary>
 
+<br>
+
 The first Colab MVP is designed as a **first-pass repair loop**, not a full autonomous debugger.
 
 Its planned job is:
@@ -395,6 +403,8 @@ It is not meant to solve every failure mode automatically on day one.
 
 <details>
 <summary><b>Which problem modes are best suited for automated debugging first?</b></summary>
+
+<br>
 
 The best first-wave targets are the modes that are both:
 
@@ -424,6 +434,8 @@ These modes are ideal for Wave 0 because they can often be improved without rebu
 <details>
 <summary><b>What will the machine-readable JSON MVP be used for?</b></summary>
 
+<br>
+
 The JSON MVP is the protocol layer for tools.
 
 It is meant to make the card usable by:
@@ -450,6 +462,8 @@ It makes the same logic consumable by software.
 
 <details>
 <summary><b>Can I plug this into my own agent runner, CI, or internal tooling?</b></summary>
+
+<br>
 
 Yes, that is one of the intended directions.
 
@@ -484,6 +498,8 @@ That makes the card easier to integrate into real workflows than a free-form deb
 <details>
 <summary><b>Is this meant to replace human debugging?</b></summary>
 
+<br>
+
 No.
 
 The purpose of the Global Debug Card is to improve the **first stage** of debugging:
@@ -514,6 +530,8 @@ this card reduces debugging chaos, but humans still decide the final repair stra
 <details>
 <summary><b>Do I need embeddings to use this page?</b></summary>
 
+<br>
+
 No, but embeddings make the protocol stronger.
 
 The full diagnostic model uses structured similarity and boundary reasoning.
@@ -536,6 +554,8 @@ So there are two valid usage modes:
 
 <details>
 <summary><b>What is the difference between the image workflow and the JSON workflow?</b></summary>
+
+<br>
 
 They use the same logic, but they serve different users.
 
@@ -565,6 +585,8 @@ Both are two views of the same protocol.
 <details>
 <summary><b>Why not just paste logs into any strong LLM and ask it to debug?</b></summary>
 
+<br>
+
 You can do that, and sometimes it helps.
 But without a shared protocol, the output is often inconsistent.
 
@@ -592,6 +614,8 @@ That makes debugging more reproducible and much easier to turn into automation.
 
 <details>
 <summary><b>How far can the Global Debug Card be pushed?</b></summary>
+
+<br>
 
 The short answer is: much further than a static poster.
 
@@ -626,6 +650,8 @@ The long-term direction is:
 <details>
 <summary><b>Can this help reduce hallucinations without changing the whole stack?</b></summary>
 
+<br>
+
 Often, yes.
 
 One of the main strengths of the card is that it works as a **diagnostic layer**, not a full replacement stack.
@@ -654,6 +680,8 @@ In many real cases, that is much cheaper than rebuilding the whole system.
 <details>
 <summary><b>Can this support replay, A/B comparison, and before/after repair loops?</b></summary>
 
+<br>
+
 Yes, and that is one of the strongest next-step directions.
 
 Once a failure case is captured in a structured form, the same case can be replayed under different settings:
@@ -679,6 +707,8 @@ They move the card from "diagnostic poster" toward "replayable debugging protoco
 
 <details>
 <summary><b>What should I submit if I want my failing case to become a reproducible example?</b></summary>
+
+<br>
 
 The best submission is a minimal but complete failure packet.
 

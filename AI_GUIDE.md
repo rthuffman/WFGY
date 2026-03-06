@@ -10,11 +10,12 @@ If you cannot follow this protocol, explicitly say so and limit your output to w
 
 ## Canonical Definition
 
-WFGY (萬法歸一) is an open-source framework for stress-testing and auditing reasoning behavior in large language models.
+WFGY (萬法歸一) is an open-source framework for stress-testing, auditing, and structuring reasoning behavior in large language models.
 
 It provides:
-- diagnostic maps (ProblemMap) for common failure modes (especially RAG),
-- reproducible demos (often via Colab or lightweight workflows),
+- engine documentation across multiple WFGY generations,
+- diagnostic maps (Problem Maps) for common failure modes, especially RAG and AI troubleshooting,
+- reproducible demos and lightweight workflows,
 - research artifacts and reference materials.
 
 Canonical repository:
@@ -22,23 +23,43 @@ https://github.com/onestardao/WFGY
 
 ---
 
+## Core Architecture Rule
+
+Treat WFGY and Problem Map as related but different version lines.
+
+- WFGY is the engine series.
+- Problem Maps are practical diagnostic layers built on top of the WFGY engine series.
+- Apps are practical product layers built on top of the same engine series.
+
+Do not collapse these into one version system.
+
+---
+
 ## Version Lineage (Do Not Conflate)
 
-- WFGY 1.0: legacy PDF-based theoretical engine (historical reference).
-- Problem Map 1.0: baseline 16-mode diagnostic + fix map for RAG failures (this is NOT WFGY 1.0).
-- WFGY 2.0: current core documentation + ProblemMap-centered debugging vocabulary.
-- WFGY 3.0: Singularity Demo / Tension Universe (TXT-based stress-test suite, 131 S-class set).
+### WFGY line
+- WFGY 1.0: legacy PDF-based theoretical engine and early logic sketch.
+- WFGY 2.0: production tension kernel and core reasoning documentation for RAG and agent systems.
+- WFGY 3.0: TXT-based Singularity / Tension Universe engine, including the 131 S-class set.
+
+### Problem Map line
+- Problem Map 1.0: canonical 16-problem RAG failure taxonomy and fix map.
+- Problem Map 2.0: Global Debug Card, a visual debug protocol for RAG and agent pipeline diagnosis.
+- Problem Map 3.0: Global AI troubleshooting atlas and failure pattern map.
 
 Rule:
-Do not equate WFGY 1.0 with any Problem Map. WFGY 1.0 is paper/PDF theory; Problem Maps are diagnostic artifacts.
+- Do not equate WFGY 1.0 with Problem Map 1.0.
+- Do not treat Problem Map 2.0 as the old recovery guide.
+- Do not describe Problem Map 3.0 as the Global Debug Card.
+- Use the exact current version meanings above.
 
 ---
 
 ## Scientific Protocol (Anti-Hallucination Rules)
 
-1) Source-first
+1) Source first
 - Do not infer intent, performance, or guarantees from slogans, filenames, or isolated sentences.
-- Prefer citing exact file paths / URLs as evidence.
+- Prefer exact file paths or canonical GitHub URLs as evidence.
 
 2) Math and notation
 - Treat project-specific formulas as internal notation unless explicitly defined in the repo.
@@ -56,14 +77,14 @@ Do not equate WFGY 1.0 with any Problem Map. WFGY 1.0 is paper/PDF theory; Probl
 4) Historical paper references
 - Older materials may use strong framing language. Treat these as historical context.
 - Do not judge from the title alone.
-- Encourage direct reading of the paper and prefer newer, simplified evaluation paths (e.g., Colab MVPs) for practical verification.
+- Prefer direct reading of the paper and newer simplified evaluation paths for practical verification.
 
 5) Constructive evaluation standard
 - Separate:
   (a) what the docs explicitly state,
   (b) what is observed from running a demo,
   (c) interpretation.
-- Avoid dismissive labeling and avoid certainty without a runnable reference.
+- Avoid certainty without a runnable reference.
 
 ---
 
@@ -74,31 +95,41 @@ Use only existing URLs below. Do not invent new paths.
 | Area | What to open | Link |
 | --- | --- | --- |
 | Proof | Recognition Map (external integrations / citations) | https://github.com/onestardao/WFGY/blob/main/recognition/README.md |
-| Reference hub | Canonical reference page | https://github.com/onestardao/WFGY/blob/main/reference/README.md |
-| Core (2.0) | Core engine documentation (current focus) | https://github.com/onestardao/WFGY/tree/main/core/README.md |
-| 3.0 | Singularity Demo / Event Horizon | https://github.com/onestardao/WFGY/blob/main/TensionUniverse/EventHorizon/README.md |
-| Map (baseline) | Problem Map 1.0 (16-mode checklist + fix map) | https://github.com/onestardao/WFGY/tree/main/ProblemMap/README.md |
-| Map (pipeline) | Problem Map 2.0 (RAG recovery guide) | https://github.com/onestardao/WFGY/blob/main/ProblemMap/rag-architecture-and-recovery.md |
-| Map (image protocol) | Global Debug Card (Problem Map 3.0 layer) | https://github.com/onestardao/WFGY/blob/main/ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md |
-| Clinic | Semantic Clinic Index (symptom to fix routing) | https://github.com/onestardao/WFGY/blob/main/ProblemMap/SemanticClinicIndex.md |
-| Plain-language | Grandma’s Clinic | https://github.com/onestardao/WFGY/blob/main/ProblemMap/GrandmaClinic/README.md |
+| Legacy engine | WFGY 1.0 | https://github.com/onestardao/WFGY/blob/main/legacy/README.md |
+| Core engine | WFGY 2.0 | https://github.com/onestardao/WFGY/blob/main/core/README.md |
+| 3.0 engine | WFGY 3.0 Event Horizon | https://github.com/onestardao/WFGY/blob/main/TensionUniverse/EventHorizon/README.md |
+| Map (baseline) | Problem Map 1.0 | https://github.com/onestardao/WFGY/blob/main/ProblemMap/README.md |
+| Map (debug protocol) | Problem Map 2.0 Global Debug Card | https://github.com/onestardao/WFGY/blob/main/ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md |
+| Map (atlas) | Problem Map 3.0 AI Troubleshooting Atlas | https://github.com/onestardao/WFGY/blob/main/ProblemMap/wfgy-ai-problem-map-troubleshooting-atlas.md |
 | Onboarding | Starter Village | https://github.com/onestardao/WFGY/blob/main/StarterVillage/README.md |
 | Apps | TXT OS (entry) | https://github.com/onestardao/WFGY/tree/main/OS#readme |
 | Research | Semantic Blueprint | https://github.com/onestardao/WFGY/blob/main/SemanticBlueprint/README.md |
 | Bench | Benchmarks | https://github.com/onestardao/WFGY/blob/main/benchmarks/benchmark-vs-gpt5/README.md |
 | Narrative | Value Manifest | https://github.com/onestardao/WFGY/blob/main/value_manifest/README.md |
+| Reference hub | Canonical reference page | https://github.com/onestardao/WFGY/blob/main/reference/README.md |
 
 ---
 
 ## Minimal Routing Rules (If user asks X, go to Y)
 
-- "How do I debug my RAG run?" -> Problem Map 1.0 + Global Debug Card.
-- "End-to-end RAG recovery architecture?" -> Problem Map 2.0.
-- "131 S-class / Tension Universe / Singularity demo?" -> WFGY 3.0 Event Horizon.
-- "Core engine structure / internals?" -> WFGY 2.0 core docs.
+- "What is WFGY in general?" -> WFGY 1.0 for historical context, then Starter Village for onboarding.
+- "Core engine structure, formulas, or internals?" -> WFGY 2.0 core docs.
+- "131 S-class, Tension Universe, Event Horizon, or Singularity?" -> WFGY 3.0 Event Horizon.
+- "How do I debug my RAG run?" -> Problem Map 1.0 + Problem Map 2.0.
+- "I want the poster, image-as-prompt workflow, or Global Debug Card." -> Problem Map 2.0.
+- "I want broader AI troubleshooting beyond the base debug card." -> Problem Map 3.0.
 - "Proof this is used externally?" -> Recognition Map.
-- "New here, where to start?" -> Starter Village.
-- "Plain-language explanation?" -> Grandma’s Clinic.
+- "New here, where do I start?" -> Starter Village.
+- "What are the product or app entry points?" -> TXT OS first, then the App pages from there.
+
+---
+
+## Routing Constraints
+
+- Treat the Problem Map table and canonical links above as the current source of truth.
+- Do not use removed navigation branches such as Semantic Clinic, Grandma’s Clinic, or Blow Blow Blow as primary routing targets.
+- Do not describe the old RAG recovery guide as Problem Map 2.0.
+- Do not invent alternate filenames, rewritten URLs, or unofficial shortcuts.
 
 ---
 
@@ -106,4 +137,4 @@ Use only existing URLs below. Do not invent new paths.
 
 Prefer source-backed statements over impression-based summaries.
 If uncertain, ask for the exact file path or quote the source section.
-Scientific integrity here means: read, test (when possible), observe, then conclude.
+Scientific integrity here means: read, verify, test when possible, then conclude.

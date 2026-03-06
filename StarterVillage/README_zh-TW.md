@@ -128,7 +128,7 @@
 | 階段 | 內容 | 什麼時候用 | 連結 |
 |------|------|------------|------|
 | **Problem Map 1.0** | 依症狀分類，快速歸類並命名錯誤 | 初次診斷，需要快速定位 | **[開啟 1.0](https://github.com/onestardao/WFGY/blob/main/ProblemMap/README.md)** |
-| **Problem Map 2.0** | 架構與修復導引，內建 WFGY 七步驟恢復流程 | 已確定錯誤類型，需要逐步修復 | **[開啟 2.0](https://github.com/onestardao/WFGY/blob/main/ProblemMap/rag-architecture-and-recovery.md)** |
+| **Problem Map 2.0** | 架構與修復導引，內建 WFGY 七步驟恢復流程 | 已確定錯誤類型，需要逐步修復 | **[開啟 2.0](https://github.com/onestardao/WFGY/blob/main/ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md)** |
 | **Semantic Clinic** | 深度案例，精準配方與邊界條件 | 問題複雜或混合類型時 | **[開啟 Clinic](https://github.com/onestardao/WFGY/blob/main/ProblemMap/SemanticClinicIndex.md)** |
 
 ### 使用方式

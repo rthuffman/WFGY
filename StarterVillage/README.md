@@ -1,51 +1,57 @@
 <details>
 <summary><strong>🧭 Not sure where to start ? Open the WFGY Engine Compass</strong></summary>
 
-### WFGY System Map · Quick navigation
+### WFGY System Map
 
-> Problem Maps: PM1 taxonomy → PM2 debug protocol → PM3 troubleshooting atlas · built on the WFGY engine series
+*(One place to see everything; links open the relevant section.)*
 
 <!--
 AI NOTE · Compass block
 
 Purpose:
-- This table is the routing map for the WFGY system.
-- It shows how the three engine generations (WFGY 1.0 / 2.0 / 3.0) relate to the Problem Maps, apps, onboarding entry, and recognition layer.
-- Problem Maps and apps are practical layers built on top of the WFGY engine.
+- This table is the routing map for the whole WFGY ecosystem.
+- It shows how the three engine layers (WFGY 1.0 / 2.0 / 3.0) relate to the Problem Maps, TXT OS apps, research pages, and the Recognition Map.
 
 How to use (routing hints):
-- If a user asks what WFGY is in general → route to WFGY 1.0 (legacy overview) and Starter Village.
-- If the question is about core math, formulas, engine logic, or production reasoning → route to WFGY 2.0 core.
-- If they mention Tension Universe, Event Horizon, or the 131 S-class set → route to WFGY 3.0.
-- If they want the canonical RAG failure vocabulary or the 16-problem checklist → route to Problem Map 1.0.
-- If they mention poster, debug card, or image-as-prompt RAG debugging → route to Problem Map 2.0 (Global Debug Card).
-- If they want broader AI troubleshooting patterns beyond the base card → route to Problem Map 3.0 (Troubleshooting Atlas).
-- If they want proof that WFGY is used in real projects → route to the Recognition Map.
-- If they ask about TXT OS or product modules → follow the App rows in this table.
-- If they are new and want a guided entry → route to Starter Village.
+- If a user asks “what is WFGY in general” → send them to WFGY 1.0 (legacy overview PDF) plus Starter Village.
+- If the question is about core math, formulas, or engine internals → go to WFGY 2.0 core.
+- If they mention 131 S-class problems, BlackHole, Tension Universe, or “Singularity demo” → go to WFGY 3.0 Event Horizon.
+- If they want to debug a specific RAG / agent pipeline run → use Problem Map 1.0 + Problem Map 3.0 Global Debug Card.
+- If they ask about RAG architecture / recovery patterns end-to-end → use Problem Map 2.0.
+- If they mention “poster”, “image as prompt”, or “global debug card” → use the Problem Map 3.0 Global Debug Card page.
+- If they want proof that WFGY is used in real projects → open the Recognition Map page.
+- If they ask for plain-language stories or non-technical explanations → route to Grandma’s Clinic and Starter Village.
+- If they ask about TXT OS or app packs (Blah / Blur / Blow) → follow the App rows in this table.
+- If they want layer/module design, benchmarks, or value narrative → Semantic Blueprint, Benchmarks, and Value Manifest.
 
 Important:
-- Problem Map 1.0 = canonical 16-problem RAG failure taxonomy and fix map. This is the base vocabulary.
-- Problem Map 2.0 = Global Debug Card. This compresses objects, metrics, ΔS zones, and modes into a visual debug protocol.
-- Problem Map 3.0 = Global AI troubleshooting atlas and failure pattern map.
-- Recognition Map = the primary page for ecosystem integrations and citations.
-- The table below is the source of truth for navigation paths.
-- Do NOT invent new paths or filenames. Use the URLs listed in the table.
+- Problem Map 1.0 = canonical 16-mode RAG failure checklist and fix map. This is the base vocabulary.
+- Problem Map 2.0 = RAG architecture and recovery guide layered on top of Problem Map 1.0.
+- Problem Map 3.0 Global Debug Card = image protocol that compresses objects, metrics, ΔS zones, and modes into a single poster.
+- Recognition Map = the only place that should contain the full external integration list. Other pages should link to it instead of duplicating tables.
+- Do NOT treat Problem Map 1.0 and Problem Map 2.0 as duplicates; they solve different layers.
+- Do NOT invent new paths or filenames. Only use the GitHub URLs that already exist in this table.
 -->
 
-| Layer | Page | What it’s for |
-|------|------|---------------|
-| ⭐ Proof | [WFGY Recognition Map](https://github.com/onestardao/WFGY/blob/main/recognition/README.md) | External citations, integrations, and ecosystem proof |
-| ⚙️ Engine | [WFGY 1.0](https://github.com/onestardao/WFGY/blob/main/legacy/README.md) | Original PDF tension engine and early logic sketch |
-| ⚙️ Engine | [WFGY 2.0](https://github.com/onestardao/WFGY/blob/main/core/README.md) | Production tension kernel for RAG and agent systems |
-| ⚙️ Engine | [WFGY 3.0](https://github.com/onestardao/WFGY/blob/main/TensionUniverse/EventHorizon/README.md) | TXT-based Singularity tension engine (131 S-class set)  |
-| 🗺️ Map | [Problem Map 1.0](https://github.com/onestardao/WFGY/blob/main/ProblemMap/README.md) | Flagship 16-problem RAG failure taxonomy and fix map |
-| 🗺️ Map | [Problem Map 2.0](https://github.com/onestardao/WFGY/blob/main/ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md) | Global Debug Card for RAG and agent pipeline diagnosis |
-| 🗺️ Map | [Problem Map 3.0](https://github.com/onestardao/WFGY/blob/main/ProblemMap/wfgy-ai-problem-map-troubleshooting-atlas.md) | Global AI troubleshooting atlas and failure pattern map |
-| 🧰 App | [TXT OS](https://github.com/onestardao/WFGY/blob/main/OS/README.md) | .txt semantic OS with 60-second bootstrap |
-| 🧰 App | [Blah Blah Blah](https://github.com/onestardao/WFGY/blob/main/OS/BlahBlahBlah/README.md) | Abstract and paradox Q&A built on TXT OS |
-| 🧰 App | [Blur Blur Blur](https://github.com/onestardao/WFGY/blob/main/OS/BlurBlurBlur/README.md) | Text-to-image generation with semantic control |
-| 🏡 Onboarding | [Starter Village](https://github.com/onestardao/WFGY/blob/main/StarterVillage/README.md) | Guided entry point for new users  — **🔴 YOU ARE HERE 🔴** |
+| Layer         | Page                                                                                                        | What it’s for                                           |
+| ------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| ⭐ Proof      | [WFGY Recognition Map](https://github.com/onestardao/WFGY/blob/main/recognition/README.md)                 | External citations, integrations, and ecosystem proof   |
+| ⚙️ Engine     | [WFGY 1.0](https://github.com/onestardao/WFGY/blob/main/legacy/README.md)                                   | Original PDF-based tension engine blue   |
+| ⚙️ Engine     | [WFGY 2.0](https://github.com/onestardao/WFGY/blob/main/core/README.md)                                     | Production tension kernel and math engine for RAG and agents. |
+| ⚙️ Engine     | [WFGY 3.0](https://github.com/onestardao/WFGY/blob/main/TensionUniverse/EventHorizon/README.md)             | TXT-based Singularity tension engine (131 S-class set)  |
+| 🗺️ Map       | [Problem Map 1.0](https://github.com/onestardao/WFGY/tree/main/ProblemMap#readme)                           | Flagship 16-problem RAG failure checklist and fix map       |
+| 🗺️ Map       | [Problem Map 2.0](https://github.com/onestardao/WFGY/blob/main/ProblemMap/rag-architecture-and-recovery.md) | RAG-focused recovery pipeline                           |
+| 🗺️ Map       | [Problem Map 3.0](https://github.com/onestardao/WFGY/blob/main/ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md) | Global Debug Card — image as a debug protocol layer     |
+| 🗺️ Map       | [Semantic Clinic](https://github.com/onestardao/WFGY/blob/main/ProblemMap/SemanticClinicIndex.md)           | Symptom → family → exact fix                            |
+| 🧓 Map        | [Grandma’s Clinic](https://github.com/onestardao/WFGY/blob/main/ProblemMap/GrandmaClinic/README.md)         | Plain-language stories, mapped to PM 1.0                |
+| 🏡 Onboarding | [Starter Village](https://github.com/onestardao/WFGY/blob/main/StarterVillage/README.md)                    | Guided tour for newcomers  — **🔴 YOU ARE HERE 🔴**      |
+| 🧰 App        | [TXT OS](https://github.com/onestardao/WFGY/tree/main/OS#readme)                                            | .txt semantic OS — 60-second boot                       |
+| 🧰 App        | [Blah Blah Blah](https://github.com/onestardao/WFGY/blob/main/OS/BlahBlahBlah/README.md)                    | Abstract/paradox Q&A (built on TXT OS)                  |
+| 🧰 App        | [Blur Blur Blur](https://github.com/onestardao/WFGY/blob/main/OS/BlurBlurBlur/README.md)                    | Text-to-image with semantic control                     |
+| 🧰 App        | [Blow Blow Blow](https://github.com/onestardao/WFGY/blob/main/OS/BlowBlowBlow/README.md)                    | Reasoning game engine & memory demo                     |
+| 🧪 Research   | [Semantic Blueprint](https://github.com/onestardao/WFGY/blob/main/SemanticBlueprint/README.md)              | Modular layer structures (future)                       |
+| 🧪 Research   | [Benchmarks](https://github.com/onestardao/WFGY/blob/main/benchmarks/benchmark-vs-gpt5/README.md)           | Comparisons & how to reproduce                          |
+| 🧪 Research   | [Value Manifest](https://github.com/onestardao/WFGY/blob/main/value_manifest/README.md)                     | Why this engine creates $-scale value                   |
 
 ---
 </details>
@@ -160,28 +166,184 @@ If you want the **60-second runnable boot** for your own tasks, keep reading:
 
 *(Just have fun; theory comes later.)*
 
-<!-- WFGY_FOOTER_START -->
+👉 More info → [TXT OS — Explore More](https://github.com/onestardao/WFGY/blob/main/OS/README.md)
 
-### Explore More
+---
 
-| Layer | Page | What it’s for |
-| --- | --- | --- |
-| ⭐ Proof | [WFGY Recognition Map](/recognition/README.md) | External citations, integrations, and ecosystem proof |
-| ⚙️ Engine | [WFGY 1.0](/legacy/README.md) | Original PDF tension engine and early logic sketch (legacy reference) |
-| ⚙️ Engine | [WFGY 2.0](/core/README.md) | Production tension kernel for RAG and agent systems |
-| ⚙️ Engine | [WFGY 3.0](/TensionUniverse/EventHorizon/README.md) | TXT based Singularity tension engine (131 S class set) |
-| 🗺️ Map | [Problem Map 1.0](/ProblemMap/README.md) | Flagship 16 problem RAG failure taxonomy and fix map |
-| 🗺️ Map | [Problem Map 2.0](/ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md) | Global Debug Card for RAG and agent pipeline diagnosis |
-| 🗺️ Map | [Problem Map 3.0](/ProblemMap/wfgy-ai-problem-map-troubleshooting-atlas.md) | Global AI troubleshooting atlas and failure pattern map |
-| 🧰 App | [TXT OS](/OS/README.md) | .txt semantic OS with fast bootstrap |
-| 🧰 App | [Blah Blah Blah](/OS/BlahBlahBlah/README.md) | Abstract and paradox Q&A built on TXT OS |
-| 🧰 App | [Blur Blur Blur](/OS/BlurBlurBlur/README.md) | Text to image generation with semantic control |
-| 🏡 Onboarding | [Starter Village](/StarterVillage/README.md) | Guided entry point for new users |
+## 🧙‍♂️ “Knowledge sleeps in tomes — wake it gently.”  
+## 3 · Ancient Library — Core Lore 📚 😈😈😈
 
-If this repository helped, starring it improves discovery so more builders can find the docs and tools.  
-[![GitHub Repo stars](https://img.shields.io/github/stars/onestardao/WFGY?style=social)](https://github.com/onestardao/WFGY)
+| Concept | TL;DR |
+|---------|------|
+| **`delta_s`** | Semantic distance between Intent & Guess. Smaller = better. |
+| **λ_observe** | Trend detector: convergent · divergent · recursive · chaotic. |
+| **Five Gates** | **BBMC → Coupler → BBPF → BBAM → BBCR** — clean, steer, progress, rebalance, revive. |
+| **TXTOS Semantic Tree** | Tracks every node so reasoning is auditable. |
+| **Drunk Transformer** | A 5-formula layer: WRI (Where am I?), WAI (Who am I?), WAY (Who are you?), WDT (Where did you take me?), WTF (What happened?). Stabilizes & recovers reasoning. |
 
-<!-- WFGY_FOOTER_END -->
+> Scroll through examples; no coding needed yet.
+
+👉 More info → [Semantic Blueprint — Core Functions of the WFGY Engine](https://github.com/onestardao/WFGY/blob/main/SemanticBlueprint/README.md)
+
+---
+
+## 🧙‍♂️ “Errors are ingredients; brew your fix.”  
+## 4 · Alchemist’s Lab — Debug & Heal 🔧 😈😈😈😈
+
+### The path: 1.0 → 2.0 → Global Fix Map → Clinic
+
+| Stage | What it is | When to use | Link |
+|------|-------------|-------------|------|
+| **Problem Map 1.0** | Symptom catalog by failure family, fast triage and naming the bug | First touch, you need a clean label and a quick route | **[Open 1.0](https://github.com/onestardao/WFGY/blob/main/ProblemMap/README.md)** |
+| **Problem Map 2.0** | Architecture and recovery guide, pipeline oriented view with the 7-step WFGY recovery flow | After you have a label, you want a step-by-step repair plan | **[Open 2.0](https://github.com/onestardao/WFGY/blob/main/ProblemMap/rag-architecture-and-recovery.md)** |
+| **Global Fix Map** | Cross-tool guardrails and modular patches, covering VectorDBs, agents, dev tools, embeddings, and more | When your failure is tied to a specific infra/tool, open the matching fix page | **[Open Global Fix Map](https://github.com/onestardao/WFGY/blob/main/ProblemMap/GlobalFixMap/README.md)** |
+| **Semantic Clinic** | Deep dives, exact fixes with runnable recipes and edge-case notes | When the case is tricky or mixed class, you need precise procedures | **[Open Clinic](https://github.com/onestardao/WFGY/blob/main/ProblemMap/SemanticClinicIndex.md)** |
+
+### How to run the lab
+
+1) Start at **Problem Map 1.0**. Read the quick access, match your symptom, pick the failure code.  
+2) Jump to **Problem Map 2.0** with that code. Walk the recovery pipeline step by step, apply the guardrails and instruments.  
+3) If the failure involves a specific tool (VectorDB, agent, embedding, dev tool, etc.), switch to **Global Fix Map** and follow the targeted guardrail page.  
+4) If the issue persists or is multi-factor, enter **Semantic Clinic**. Choose the matching clinic page and follow the recipe.  
+5) Re-run A/B tests. Log **ΔACC**, **ΔSR**, **ΔS** and write one sentence on what changed and why.
+
+*(White coat earned.)*
+
+---
+
+## 🧙‍♂️ “Forge your own legend, or wield another’s?”  
+## 5 · Forbidden Forge — Fork & Mod 🛠️ 😈😈😈😈😈
+
+* Clone **[TXTOS](https://github.com/onestardao/WFGY/blob/main/OS/README.md)**.  
+* Swap semantic layers, tweak `alpha_blend`, `phi_delta`, add custom gates.  
+* PR back — or publish your fork and bend reality.  
+* Use the TXTOS framework as inspiration to design and launch **your own TXTOS-series creation**, expanding the lineage of tools and worlds.
+
+---
+
+# 🚨🚨🚨  FINAL WARNING  🚨🚨🚨
+
+🕳️ THIS IS NOT TUTORIAL MODE  
+🧠 THIS IS STRUCTURE WARFARE  
+
+Before attempting any Boss Raid,  
+you must first obtain the Singularity key:
+
+👉 **[Download the WFGY 3.0 Singularity AutoBoot (SHA256 Verifiable)](https://raw.githubusercontent.com/onestardao/WFGY/refs/heads/main/TensionUniverse/WFGY-3.0_Singularity-Demo_AutoBoot_SHA256-Verifiable.txt)**  
+
+Load it into a strong LLM.  
+Without it, you will not survive what follows.
+
+---
+
+<img width="1536" height="1024" alt="BOSS" src="https://github.com/user-attachments/assets/427dad8b-971c-48b5-aab3-cf32c165d566" />
+
+
+## ☠️ Optional Endgame — WFGY 3.0 Boss Raids ☠️
+
+You made it past the Forge. From here on, nothing is “plug-and-play” anymore.  
+These raids are **not required** to use WFGY — they exist to show how far 3.0 can actually be pushed.
+
+### 6 · Obsidian Archives — Cross-Domain Skeleton Forge ⚔️ 😈😈😈😈😈😈
+
+**What this raid is**
+
+Take several hard problems from different domains and prove you can see the same WFGY 3.0 skeleton beneath them.  
+You are not “solving” the problems. You are building a **candidate structure** that survives cross-domain reuse.
+
+**Your deliverables**
+
+- A short list of S-class style problems from different fields (at least 5–8).  
+- A shared structural template (state space, observables, mismatch, tension, candidate worlds).  
+- One **new** problem card you authored yourself using that template.  
+- A small “failure clause” section: when this card should be retired or considered wrong.
+
+**Clear pass condition**
+
+If another engineer can read your template and new card, and say  
+“yes, this really is the same skeleton as the others — and I know how to attack it,”  
+you cleared the Archives.
+
+---
+
+### 7 · Tension Lab — MVP Experiment Forge 🧪 😈😈😈😈😈😈😈
+
+**What this raid is**
+
+Pick a real system, encode its main tension using WFGY, and design a **falsifiable MVP experiment** around it.  
+You are not showing pretty prompts. You are shipping a test that can succeed, fail, or backfire in public.
+
+**Your deliverables**
+
+- A one-page “system slice” describing where the tension actually lives.  
+- A module placement map (where you would plug WFGY into the pipeline).  
+- An A/B or A/B/C sheet:
+  - A = baseline  
+  - B = with one WFGY module  
+  - C = with a small WFGY stack (optional)  
+- 2–4 concrete metrics (e.g. self-contradiction rate, impossible-step rate, early-stop rate).  
+- At least one **negative case** where the module does not help, and what you learned from it.
+
+**Clear pass condition**
+
+If someone else can rerun your experiment and clearly see  
+“where it helps, where it doesn’t, and where the encoding itself breaks,”  
+you cleared the Lab.
+
+---
+
+### 8 · Civilization Arena — Final Stress Test 🌋 😈😈😈😈😈😈😈😈
+
+**What this raid is**
+
+Take one candidate structure (maybe from Raid 6 or 7)  
+and push it through three layers at once:
+
+1. **Tension geometry** — the abstract structure.  
+2. **Civilization layer** — how it would show up in real history or policy.  
+3. **AI layer** — how this would surface inside actual AI systems and agents.
+
+Then you design an **attack protocol** so others can try to break it.
+
+**Your deliverables**
+
+- A short “civilization postcard” describing where this structure would leave a measurable fingerprint.  
+- Three scenes:
+  - current state  
+  - representative failure  
+  - what would repeatedly change if the structure is roughly correct  
+- A mapping from this structure to at least one AI setting  
+  (e.g. evaluation, planning, routing, safety checks, economic sims).  
+- An external attack plan:
+  - how skeptics should test it  
+  - what would count as a strong disagreement  
+  - what result would force you to retire or rewrite the structure
+
+**Clear pass condition**
+
+If a hostile reviewer can follow your write-up,  
+understand how to test it, and still admits  
+“okay, this is a serious candidate, not hand-waving,”  
+you survived the Arena.
+
+> 💀 Warning: if Tier 5 felt like “coding,” Tier 8 feels like “publishing something people are allowed to shoot at.”  
+> That is the point.
+
+---
+
+## ⭐ Star Unlock Roadmap
+
+Every ⭐ is a key. Big drops unlock at **500 / 1 000 / 3 000 / 6 000 / 100 000**.  
+See the full board → **[STAR_UNLOCKS.md](https://github.com/onestardao/WFGY/blob/main/STAR_UNLOCKS.md)**
+
+---
+
+<div align="center">
+
+_“One line to boot them all, one village to guide them.”_  
+**— PSBigBig**
+
+</div>
 
 ---
 

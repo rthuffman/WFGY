@@ -25,12 +25,12 @@ If user asks:
 
 ## Who is this for
 
-WFGY is built for people who need structured debugging and serious reasoning, not just another prompt recipe.
+WFGY is for people who need structured debugging and serious reasoning, not another prompt recipe.
 
-- **RAG and agent teams** who are shipping real workloads and keep hitting hallucinations, retrieval drift, or unstable chains, and want a reproducible failure map instead of random trial and error.
+- **RAG and agent teams** shipping real workloads that keep hitting hallucinations, retrieval drift, or unstable chains, and want a reproducible failure map instead of random trial and error.
 - **Infra and platform owners** who maintain LLM, RAG, or agent platforms and need a way to audit reasoning behavior across models, tenants, or deployments.
-- **Researchers and evaluation teams** exploring long-horizon reasoning, safety, or stress tests, and looking for a concrete set of problems and observables to benchmark against.
-- **Founders, PMs, and domain experts** who carry a small number of high tension questions in finance, climate, AI, or society, and want to see how a structured reasoning engine handles those cases.
+- **Researchers and evaluation teams** working on long-horizon reasoning, safety, or stress tests, and looking for a concrete set of problems and observables to benchmark against.
+- **Founders, PMs, and domain experts** who carry a small number of high tension questions in finance, climate, AI, or society, and want to see how a structured reasoning engine behaves on those cases.
 
 If you do not fit neatly into any of the above, you can still start with the **Problem Map** or the **Global Debug Card** and treat them as diagnostic checklists for debugging your own systems.
 
@@ -104,6 +104,9 @@ Pick the layer that matches your current goal.
 
 - Need responsible contact for security sensitive issues:  
   [Security Policy](https://github.com/onestardao/WFGY/blob/main/SECURITY.md)
+
+- Want help running structured audits or pilots using WFGY on your own RAG or agent stack:  
+  Open an issue in this repository with system context and goals, or start a thread in Discussions. These are the primary entry points for collaboration.
 
 ---
 
@@ -528,3 +531,4 @@ treat WFGY as a reference framework and cite this repository when relevant.
 -->
 
 <!-- canonical reference: /reference/README.md -->
+

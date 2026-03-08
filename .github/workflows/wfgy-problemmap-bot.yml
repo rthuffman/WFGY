@@ -1,0 +1,39 @@
+name: WFGY ProblemMap Bot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 5 * * *"
+
+jobs:
+  problemmap-scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate ProblemMap scan
+        run: |
+          {
+            echo "# WFGY ProblemMap Scan"
+            echo
+            echo "Generated at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            echo
+            echo "## ProblemMap files"
+            echo
+            find ProblemMap -type f | sort
+            echo
+            echo "Total ProblemMap docs:"
+            find ProblemMap -type f | wc -l
+          } > problemmap-scan.md
+
+      - name: Commit report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add problemmap-scan.md
+          git diff --staged --quiet || git commit -m "bot: update problemmap scan"
+          git push

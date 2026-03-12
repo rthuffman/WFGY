@@ -39,7 +39,7 @@ AI_NOTE_END
 ## Problem Map 3.0 Troubleshooting Atlas
 ## Official flagship demo for diagnosability-first repair
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onestardao/WFGY/blob/Atlas/ProblemMap/Atlas/Fixes/official/demos/demo-f5-observability-first/demo_f5_observability.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onestardao/WFGY/blob/Atlas/ProblemMap/Atlas/Fixes/official/demos/demo-f5-observability-first/demo_02_f5_observability_first_replay.ipynb)
 
 **Replay-only MVP**  
 **No API key required**

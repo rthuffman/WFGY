@@ -64,6 +64,54 @@ That is the job of this folder.
 
 ---
 
+## Current MVP status
+
+The first flagship demo pack is now in a usable MVP state.
+
+At the current stage:
+
+- **Demo 1** includes a live notebook and replay support
+- **Demo 2** is replay-only in the first MVP
+- **Demo 3** is replay-only in the first MVP
+- **Demo 4** is replay-only in the first MVP
+
+This is intentional.
+
+The current pack is designed to prove the strongest teaching pattern in the clearest possible way.
+
+That means:
+
+- use live mode where live comparison adds real proof value
+- use replay mode where replay is clearer, safer, and more honest
+
+This is not a shortcut.
+It is a deliberate MVP teaching decision.
+
+---
+
+## Current shared support layer
+
+The demo pack also includes a small official shared support layer under:
+
+[shared/](./shared/)
+
+At the current MVP stage, that folder already includes:
+
+- `README.md`
+- `demo_utils.py`
+- `routing_schema.md`
+
+These files exist to keep the official demos more aligned, more readable, and easier to audit.
+
+They are not meant to turn the demo pack into a hidden mini-framework.
+
+In short:
+
+> the shared layer already exists  
+> but it remains intentionally small
+
+---
+
 ## What this demo pack proves
 
 This demo pack is designed to make four claims visible.

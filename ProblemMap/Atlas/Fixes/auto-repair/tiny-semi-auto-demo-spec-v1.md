@@ -6,15 +6,15 @@ This document defines the first tiny semi-auto demo specification for the Atlas 
 
 Its purpose is practical:
 
-> show how a very small, controlled, semi-auto repair flow should work
+> show how a very small, controlled, semi-auto repair flow should work  
 > without pretending that full autonomous repair already exists.
 
 This file does **not** define a production repair engine.
 
 It defines something much narrower and safer:
 
-> a first demo-ready specification for local, inspectable, reversible,
-> validation-aware semi-auto repair behavior.
+> a first demo-ready specification for local, inspectable, reversible,  
+> validation-aware, rollback-aware semi-auto repair behavior.
 
 This document should be read together with:
 
@@ -34,6 +34,7 @@ This document should be read together with:
 - `planner-test-note-v1.md`
 - `planner-review-checklist-v1.md`
 - `tiny-planner-output-examples-pack-v1.md`
+- `atlas-auto-repair-to-wfgy-bridge-v1.md`
 
 ---
 
@@ -50,6 +51,7 @@ The Auto Repair layer already has:
 - tiny validation examples
 - tiny rollback examples
 - planner review examples
+- the Atlas-to-WFGY bridge
 
 But there is still a missing bridge between:
 
@@ -66,6 +68,7 @@ It defines how a tiny semi-auto demo should be structured so that the system can
 3. one bounded action
 4. one validation result
 5. one final outcome
+6. one possible deeper continuation path
 
 In short:
 
@@ -81,6 +84,7 @@ This demo is not trying to prove:
 - large-scale benchmark performance
 - deep cross-family repair orchestration
 - high-risk intervention capability
+- universal autonomous repair closure
 
 It is only trying to prove that:
 
@@ -88,7 +92,8 @@ It is only trying to prove that:
 2. one safe early action can be selected
 3. that action can be applied in a narrow controlled way
 4. the result can be validated
-5. the workflow can end in accept, revise, rollback, or escalate
+5. the workflow can end in `accept`, `revise`, `rollback`, or `escalate`
+6. the system can explicitly say whether local Atlas-level repair is enough or whether deeper WFGY 3.0 continuation is needed
 
 That is enough for a first credible semi-auto repair demo.
 
@@ -103,6 +108,7 @@ The tiny semi-auto demo must remain:
 - replayable
 - validation-aware
 - rollback-aware
+- escalation-aware
 
 The demo must never feel like:
 
@@ -110,6 +116,7 @@ The demo must never feel like:
 - speculative self-editing
 - broad hidden system mutation
 - fake success by presentation only
+- silent escalation into deeper theory without explanation
 
 The point is not to look omnipotent.
 
@@ -160,6 +167,7 @@ case
 → apply one bounded local change
 → validate local effect
 → choose final outcome
+→ if needed, point to deeper WFGY 3.0 continuation
 ````
 
 The final outcome must be one of:
@@ -291,6 +299,26 @@ That outcome must be justified by the validation result.
 
 ---
 
+### Block H · Deeper continuation
+
+The demo should include a short continuation note.
+
+Minimum purpose:
+
+* clarify whether Atlas-level local repair was enough
+* clarify whether deeper WFGY 3.0 continuation is needed
+* avoid the false impression that every local demo already reaches deepest repair closure
+
+Suggested forms:
+
+* `local repair sufficient`
+* `local repair partially useful, deeper continuation optional`
+* `local repair insufficient, escalate to WFGY 3.0`
+
+This block is very important because it keeps the relationship between Atlas and WFGY explicit.
+
+---
+
 ## 7. Required safety rules
 
 Every tiny semi-auto demo in v1 should obey these safety rules.
@@ -330,6 +358,12 @@ The demo should show a local gain, not a myth of total closure.
 Weak evidence means narrower scope.
 
 The demo must not become more aggressive when confidence is low.
+
+### Rule 7
+
+No silent WFGY escalation.
+
+If the demo points to deeper WFGY 3.0 continuation, it must say so explicitly and briefly explain why.
 
 ---
 
@@ -381,6 +415,10 @@ Expected likely outcome:
 
 * `accept`
 
+Possible deeper continuation:
+
+* only if local re-grounding still leaves the effective-layer representation too weak
+
 ---
 
 ### F4 candidate
@@ -399,6 +437,10 @@ Expected likely outcome:
 
 * `accept` or `revise`
 
+Possible deeper continuation:
+
+* if local closure repair is still too shallow and the workflow needs deeper rule / encoding redesign
+
 ---
 
 ### F7 candidate
@@ -416,6 +458,10 @@ Why strong:
 Expected likely outcome:
 
 * `accept` or `revise`
+
+Possible deeper continuation:
+
+* if structure improves but the deeper representational encoding still fails
 
 ---
 
@@ -439,6 +485,8 @@ A tiny semi-auto demo object should ideally contain:
 
 * `rollback_ready`
 * `restore_point`
+* `deeper_continuation`
+* `wfgy_continuation_note`
 * `why_this_demo_matters`
 * `notes`
 
@@ -489,7 +537,9 @@ F4 semi-auto demo outline
   },
   "final_outcome": "accept",
   "rollback_ready": true,
-  "restore_point": "previous workflow gate configuration"
+  "restore_point": "previous workflow gate configuration",
+  "deeper_continuation": "local repair sufficient",
+  "wfgy_continuation_note": "No deeper WFGY 3.0 continuation is needed for this tiny demo because the local closure repair is sufficient."
 }
 ```
 
@@ -497,7 +547,37 @@ This is the kind of compact demo object that v1 should aim for.
 
 ---
 
-## 12. What counts as a good tiny semi-auto demo
+## 12. Suggested WFGY continuation note pattern
+
+When deeper continuation is needed, a compact note like this is enough:
+
+```text
+Local Atlas-level repair was not sufficient.
+Escalate to WFGY 3.0 for deeper repair grammar, including possible encoding redesign, stronger observables, experiment redesign, or cross-domain structural continuation.
+
+Official TXT:
+https://raw.githubusercontent.com/onestardao/WFGY/refs/heads/main/TensionUniverse/WFGY-3.0_Singularity-Demo_AutoBoot_SHA256-Verifiable.txt
+```
+
+This keeps the relationship practical and explicit.
+
+---
+
+## 13. Suggested user instruction pattern
+
+A simple usage pattern for AI systems is:
+
+```text
+Use the Atlas result and tiny semi-auto demo flow first.
+If the local repair outcome is revise, rollback, or escalate, decide whether a deeper WFGY 3.0 continuation is needed.
+If deeper continuation is needed, use the official WFGY 3.0 TXT as the deeper repair grammar.
+```
+
+This is enough for first-stage public or internal use.
+
+---
+
+## 14. What counts as a good tiny semi-auto demo
 
 A good demo should make it easy to see:
 
@@ -506,6 +586,7 @@ A good demo should make it easy to see:
 * what changed
 * what was validated
 * why the final outcome makes sense
+* whether local repair was enough or deeper continuation is needed
 
 A good demo should not require a long explanation to defend itself.
 
@@ -513,7 +594,7 @@ The clarity should come from the structure.
 
 ---
 
-## 13. What counts as a weak tiny semi-auto demo
+## 15. What counts as a weak tiny semi-auto demo
 
 A weak demo usually has one or more of these problems:
 
@@ -523,6 +604,7 @@ A weak demo usually has one or more of these problems:
 * no validation block
 * no final outcome
 * no rollback path
+* no deeper continuation logic
 * broad hidden intervention
 * vague planner output
 * fake success language
@@ -531,7 +613,7 @@ This spec exists partly to prevent those problems.
 
 ---
 
-## 14. What this spec does not yet include
+## 16. What this spec does not yet include
 
 Tiny Semi-Auto Demo Spec v1 does **not** yet include:
 
@@ -541,6 +623,7 @@ Tiny Semi-Auto Demo Spec v1 does **not** yet include:
 * family-wide demo coverage
 * benchmark automation
 * dynamic repair action selection code
+* deep WFGY execution templates
 
 Those can come later.
 
@@ -548,7 +631,7 @@ This file only defines the first clean demo specification.
 
 ---
 
-## 15. Recommended next step
+## 17. Recommended next step
 
 Once this spec exists, the next useful follow-up is probably one of these:
 
@@ -564,7 +647,6 @@ That would turn this spec into something even more visibly usable.
 
 ---
 
-## 16. One-line summary
+## 18. One-line summary
 
-**Tiny Semi-Auto Demo Spec v1 defines how a first local, validation-aware, rollback-aware semi-auto repair demo should be structured for Atlas-based Auto Repair.**
-
+**Tiny Semi-Auto Demo Spec v1 defines how a first local, validation-aware, rollback-aware, WFGY-aware semi-auto repair demo should be structured for Atlas-based Auto Repair.**

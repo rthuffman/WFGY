@@ -34,12 +34,12 @@ Reading discipline for AI:
 AI_NOTE_END
 -->
 
-# Demo 2 · F5 Observability First 🔍
+# Demo 2 · F5 Observability First
 
 ## Problem Map 3.0 Troubleshooting Atlas
 ## Official flagship demo for diagnosability-first repair
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onestardao/WFGY/blob/Atlas/ProblemMap/Atlas/Fixes/official/demos/demo-f5-observability-first/demo_02_f5_observability_first_replay.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onestardao/WFG/github/onestardao/WFGY/blob/Atlas/ProblemMap/Atlas/Fixes/official/demos/demo-f5-observability-first/demo_02_f5_observability_first_replay_v2.ipynb)
 
 **Replay-only MVP**  
 **No API key required**
@@ -54,6 +54,41 @@ It was chosen because many real systems fail in a painful but very common way:
 This demo is designed to make that situation visible.
 
 It shows that once a case is routed as **F5 Observability & Diagnosability Integrity**, the first repair move changes from premature intervention to explicit visibility uplift.
+
+---
+
+## Current notebook versions
+
+This folder currently preserves **two replay notebook versions**.
+
+### Recommended version
+
+- `demo_02_f5_observability_first_replay_v2.ipynb`
+
+This is the current recommended notebook for public reading, Colab use, and MVP presentation.
+
+It keeps the replay-first design, while adding:
+
+- clearer route summary
+- clearer before / after contrast
+- stronger teaching framing
+- better aligned shared-layer presentation
+
+### Original version
+
+- `demo_02_f5_observability_first_replay.ipynb`
+
+This version is intentionally retained.
+
+It remains part of the demo history and preserves the earlier first-pass MVP presentation.
+
+### Version rule
+
+The rule for this folder is simple:
+
+- **v1 is preserved**
+- **v2 is the recommended replay notebook**
+- replay-first remains the official design center for Demo 2
 
 ---
 
@@ -279,10 +314,11 @@ This is enough for the first public MVP.
 ### Required
 
 - `README.md`
-- `demo_f5_observability.ipynb`
 - `input_case.json`
 - `replay_outputs.json`
 - `expected_output.json`
+- `demo_02_f5_observability_first_replay.ipynb`
+- `demo_02_f5_observability_first_replay_v2.ipynb`
 
 ### File roles
 
@@ -295,8 +331,11 @@ Contains the baseline state, route explanation, first repair move, and improved 
 #### `expected_output.json`
 Contains the clean target structure for what the demo is meant to make visible.
 
-#### `demo_f5_observability.ipynb`
-Contains the replay-first notebook version of the demo, runnable in Colab.
+#### `demo_02_f5_observability_first_replay.ipynb`
+The original first-pass replay notebook retained for continuity.
+
+#### `demo_02_f5_observability_first_replay_v2.ipynb`
+The current recommended replay notebook for public reading and Colab use.
 
 ---
 

@@ -39,7 +39,7 @@ AI_NOTE_END
 ## Problem Map 3.0 Troubleshooting Atlas
 ## Official flagship demo for container-first repair
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onestardao/WFGY/blob/Atlas/ProblemMap/Atlas/Fixes/official/demos/demo-f7-container-fidelity/demo_04_f7_container_fidelity_replay.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onestardao/WFGY/blob/Atlas/ProblemMap/Atlas/Fixes/official/demos/demo-f7-container-fidelity/demo_04_f7_container_fidelity_replay_v2.ipynb)
 
 **Replay-only MVP**  
 **No API key required**
@@ -69,6 +69,41 @@ But in many cases, the first real break appears earlier:
 This demo is designed to make that difference visible.
 
 It shows that once a case is routed as **F7 Representation & Localization Integrity**, the first repair move changes from “push the model to reason harder” to “repair the container that carries the reasoning.”
+
+---
+
+## Current notebook versions
+
+This folder currently preserves **two replay notebook versions**.
+
+### Recommended version
+
+- `demo_04_f7_container_fidelity_replay_v2.ipynb`
+
+This is the current recommended notebook for public reading, Colab use, and MVP presentation.
+
+It keeps the replay-first design, while adding:
+
+- clearer route summary
+- clearer structure-target framing
+- stronger before / after teaching contrast
+- better aligned shared-layer presentation
+
+### Original version
+
+- `demo_04_f7_container_fidelity_replay.ipynb`
+
+This version is intentionally retained.
+
+It remains part of the demo history and preserves the earlier first-pass MVP presentation.
+
+### Version rule
+
+The rule for this folder is simple:
+
+- **v1 is preserved**
+- **v2 is the recommended replay notebook**
+- replay-first remains the official design center for Demo 4
 
 ---
 
@@ -365,6 +400,7 @@ This is enough for the first public MVP.
 - `replay_outputs.json`
 - `expected_output.json`
 - `demo_04_f7_container_fidelity_replay.ipynb`
+- `demo_04_f7_container_fidelity_replay_v2.ipynb`
 
 ### Optional future additions
 
@@ -384,7 +420,10 @@ Contains the baseline weak output, route explanation, first repair move, and rep
 Contains the clean target structure for what the demo is trying to make visible.
 
 #### `demo_04_f7_container_fidelity_replay.ipynb`
-Contains the replay-first notebook version of the demo, runnable in Colab.
+The original first-pass replay notebook retained for continuity.
+
+#### `demo_04_f7_container_fidelity_replay_v2.ipynb`
+The current recommended replay notebook for public reading and Colab use.
 
 ---
 
@@ -453,9 +492,9 @@ Contributors should preserve the official logic:
 
 For contribution structure, see:
 
-- [Community Fix Lab](../../community/README.md)
-- [Contribution Checklist](../../templates/contribution-checklist.md)
-- [Fix Recipe Template](../../templates/fix-recipe-template.md)
+- [Community Fix Lab](../../../community/README.md)
+- [Contribution Checklist](../../../templates/contribution-checklist.md)
+- [Fix Recipe Template](../../../templates/fix-recipe-template.md)
 
 ---
 

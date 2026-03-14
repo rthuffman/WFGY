@@ -551,6 +551,20 @@ EX10=F3|F5
 EX11=F5|F6|thin_evidence
 EX12=F1|F7|abstract_anchor
 
+COVERAGE_STRONGEST_IN:
+- grounding
+- container_vs_progression
+- diagnosability
+- execution_closure
+- continuity
+- boundary_first_cases
+
+OUTER_RING_GAPS:
+- dialogue_native
+- generation_first
+- code_synthesis_native
+- institution_governance_bridge
+
 SECTION_13_GOLD_MINI_EXEMPLARS
 
 EX1_F1_GROUNDING_FIRST:
@@ -970,6 +984,10 @@ PATCHABLE_LATER:
 - broader domain coverage
 - stronger deployment variants
 - tighter future patch alignment
+- compact_mode_gold_outputs
+- node_level_misrepair_pairs
+- F4_F6_bridge_tightening
+- F5_F6_high_abstract_replay
 
 UNSUPPORTED_SCOPE_NOTE:
 current exemplar coverage is strongest in troubleshooting-adjacent AI failures, retrieval-like grounding, control, multi-agent continuity, execution closure, and diagnosability-heavy cases
@@ -979,5 +997,55 @@ CROSS_LLM_VALIDATION_HOOK:
 empirical cross-LLM validation remains patchable
 future evaluation may compare routing stability, fit honesty, and first-fix quality across multiple model families
 
+POSTSTRESS_INTERPRETATION:
+five-round internal stress audit supports operational freeze
+remaining work is high-ROI patching, not core router redesign
+
 OFFICIAL_ONE_LINE:
-Troubleshooting Atlas Router v1 is the first formal route-first TXT pack derived from Problem Map 3.0 Troubleshooting Atlas. It helps AI systems classify failures, cut key family boundaries, identify broken invariants, and suggest the first repair direction without overclaiming full repair closure.
+Troubleshooting Atlas Router v1.1 is the first formal route-first TXT pack derived from Problem Map 3.0 Troubleshooting Atlas. It helps AI systems classify failures, cut key family boundaries, identify broken invariants, and suggest the first repair direction without overclaiming full repair closure.
+
+SECTION_22_POSTSTRESS_DELTA
+
+POSTSTRESS_STATUS:
+- round_1_contract_audit=pass
+- round_2_boundary_knife_test=pass
+- round_3_negative_and_misrepair_test=pass
+- round_4_mode_stability_design=pass
+- round_5_cross_domain_readiness=pass
+
+CURRENT_SCOPE:
+- inner_ring=strong
+- outer_ring=patchable
+- core_redesign_needed=false
+
+INNER_RING_STRENGTH:
+- troubleshooting_adjacent_ai_failures
+- retrieval_like_grounding
+- control
+- multi_agent_continuity
+- execution_closure
+- diagnosability_heavy_cases
+
+OUTER_RING_PATCH_TARGETS:
+- dialogue_native_exemplars
+- generation_first_exemplars
+- code_synthesis_native_exemplars
+- institution_governance_bridge_cases
+- compact_mode_gold_outputs
+- node_level_misrepair_pairs
+- F4_F6_bridge_tightening
+- F5_F6_high_abstract_replay
+
+RUNTIME_WATCH:
+- repair_first_preview_may_overcommit
+- compact_routing_may_overcompress
+- teaching_mode_may_overexplain_neighbor_pressure
+
+DO_NOT_REWRITE:
+- no_core_family_rewrite
+- no_boundary_matrix_rewrite
+- no_output_contract_rewrite
+- no_freeze_scope_inflation
+
+V1_1_ROLE:
+post_stress_hardened_route_first_pack

@@ -551,7 +551,7 @@ The safer and more accurate claim is:
 
 ## FAQ
 
-### 1. Getting Started ⭐️
+### 1. ⭐️ Getting Started ⭐️
 
 <details>
 <summary><strong>Where should a new user start?</strong></summary>
@@ -663,7 +663,7 @@ The safer and more accurate claim is:
 
 </details>
 
-### 2. Why This Matters ⭐️
+### 2. ⭐️ Why This Matters ⭐️
 
 <details>
 <summary><strong>Does this move AI closer to automatic debugging or bug fixing?</strong></summary>
@@ -791,7 +791,7 @@ The safer and more accurate claim is:
 
 </details>
 
-### 3. Why Trust This ⭐️
+### 3. ⭐️ Why Trust This ⭐️
 
 <details>
 <summary><strong>How do you know this atlas is not just a made-up classification system?</strong></summary>
@@ -958,7 +958,7 @@ The safer and more accurate claim is:
 
 </details>
 
-### 4. Scope, Limits, and What Comes Next ⭐️
+### 4. ⭐️ Scope, Limits, and What Comes Next ⭐️
 
 <details>
 <summary><strong>Does this system already repair everything automatically?</strong></summary>

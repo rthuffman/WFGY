@@ -1,6 +1,6 @@
 # WFGY ProblemMap Scan
 
-Generated at: 2026-03-14 05:52:10 UTC
+Generated at: 2026-03-15 06:06:54 UTC
 
 ## ProblemMap files
 
@@ -83,6 +83,7 @@ ProblemMap/Atlas/Fixes/templates/prompt-template.md
 ProblemMap/Atlas/README.md
 ProblemMap/Atlas/adapter-failure-discipline-v1.md
 ProblemMap/Atlas/adapter-runtime-modes-v1.md
+ProblemMap/Atlas/ai-eval-evidence.md
 ProblemMap/Atlas/atlas-final-freeze-v1.md
 ProblemMap/Atlas/atlas-negative-space-report-v1.md
 ProblemMap/Atlas/atlas-to-ai-adapter-v1.md
@@ -90,11 +91,24 @@ ProblemMap/Atlas/atlas-v1-integrated-handoff.md
 ProblemMap/Atlas/canonical-casebook-v1.md
 ProblemMap/Atlas/civilization-bridge-modules-v1.md
 ProblemMap/Atlas/cross-domain-freeze-note-v2.md
+ProblemMap/Atlas/images/.gitkeep
+ProblemMap/Atlas/images/Hero_Atlas_02.png
+ProblemMap/Atlas/images/Hero_Atlas_03.png
+ProblemMap/Atlas/images/atlas-routing-before-after-evaluationatlas-routing-before-after-evaluation.png
+ProblemMap/Atlas/images/atlas-routing-eval-chatgpt.png
+ProblemMap/Atlas/images/atlas-routing-eval-claude.png
+ProblemMap/Atlas/images/atlas-routing-eval-copilot.png
+ProblemMap/Atlas/images/atlas-routing-eval-deepseek.png
+ProblemMap/Atlas/images/atlas-routing-eval-gemini.png
+ProblemMap/Atlas/images/atlas-routing-eval-kimi.png
+ProblemMap/Atlas/images/atlas-routing-eval-mistral.png
+ProblemMap/Atlas/images/atlas-routing-eval-perplexity.png
 ProblemMap/Atlas/patch-governance-v1.md
 ProblemMap/Atlas/patch-wave-2-freeze-note-v1.md
 ProblemMap/Atlas/provenance-and-derivation-v1.md
 ProblemMap/Atlas/release-and-freeze-policy-v1.md
 ProblemMap/Atlas/tiny-planner-output-examples-pack-v1.md
+ProblemMap/Atlas/troubleshooting-atlas-router-v1-freeze-note.md
 ProblemMap/Atlas/troubleshooting-atlas-router-v1-usage.md
 ProblemMap/Atlas/troubleshooting-atlas-router-v1.txt
 ProblemMap/Atlas/validation-basis-v1.md
@@ -752,8 +766,9 @@ ProblemMap/tool-router-debug.md
 ProblemMap/vectorstore-fragmentation.md
 ProblemMap/vectorstore-metrics-and-faiss-pitfalls.md
 ProblemMap/wfgy-ai-problem-map-troubleshooting-atlas.md
+ProblemMap/wfgy-ai-problem-map-troubleshooting-atlas.zh-tw.md
 ProblemMap/wfgy-metrics.md
 ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md
 
 Total ProblemMap docs:
-750
+765

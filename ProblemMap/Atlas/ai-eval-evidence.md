@@ -1,5 +1,14 @@
 # AI Eval Evidence
 
+Quick links:
+
+- [Back to Atlas landing page](../wfgy-ai-problem-map-troubleshooting-atlas.md)
+- [See the Official Flagship Demos](./Fixes/official/demos/README.md)
+- [Get the Atlas Router TXT](./troubleshooting-atlas-router-v1.txt)
+- [Open the Atlas Hub](./README.md)
+
+---
+
 This page is the public evidence entry for early AI reviewed evaluation snapshots of **Problem Map 3.0 Troubleshooting Atlas**.
 
 It exists for one simple reason:
@@ -70,6 +79,22 @@ What matters more is whether different evaluators converge on the same structura
 > when routing improves early, several downstream metrics often improve together
 
 So please read these as **cross model directional agreement**, not pooled benchmark math.
+
+---
+
+## What to do next
+
+If this page makes the route-first claim feel plausible, the next question is usually:
+
+> does better routing only change the explanation, or does it also change the first repair move?
+
+That is exactly what the official demo layer is designed to show.
+
+Recommended next steps:
+
+1. [See the Official Flagship Demos](./Fixes/official/demos/README.md)
+2. [Go back to the Atlas landing page](../wfgy-ai-problem-map-troubleshooting-atlas.md)
+3. [Try the Atlas Router TXT yourself](./troubleshooting-atlas-router-v1.txt)
 
 ---
 
@@ -164,7 +189,7 @@ Click any image to open the full size version.
 
 ### 01. Download the Atlas Router TXT
 
-[troubleshooting-atlas-router-v1.txt](https://github.com/onestardao/WFGY/blob/main/ProblemMap/Atlas/troubleshooting-atlas-router-v1.txt)
+[troubleshooting-atlas-router-v1.txt](./troubleshooting-atlas-router-v1.txt)
 
 ### 02. Paste it into any AI model
 
@@ -229,9 +254,10 @@ The next updates planned for this page include:
 
 ## Related pages
 
-* [Troubleshooting Atlas main page](https://github.com/onestardao/WFGY/blob/main/ProblemMap/wfgy-ai-problem-map-troubleshooting-atlas.md)
-* [Atlas folder](https://github.com/onestardao/WFGY/tree/main/ProblemMap/Atlas)
-* [Atlas Router TXT](https://github.com/onestardao/WFGY/blob/main/ProblemMap/Atlas/troubleshooting-atlas-router-v1.txt)
+* [Troubleshooting Atlas main page](../wfgy-ai-problem-map-troubleshooting-atlas.md)
+* [Official Flagship Demos](./Fixes/official/demos/README.md)
+* [Atlas Hub](./README.md)
+* [Atlas Router TXT](./troubleshooting-atlas-router-v1.txt)
 
 ---
 
@@ -247,3 +273,19 @@ It often creates a silent cost cascade:
 wrong path selection, wasted patches, false confidence, side effects, and growing structural mess.
 
 This page exists to make that claim easier to inspect with reproducible AI reviewed comparisons.
+
+---
+
+## Next step after this page
+
+If the cross-model snapshots make the route-first idea feel credible, the strongest next page is:
+
+[Official Flagship Demos](./Fixes/official/demos/README.md)
+
+That page is where the claim becomes more concrete:
+
+> different routes lead to different first repair moves
+
+You can also return to the main entry here:
+
+[Problem Map 3.0 Troubleshooting Atlas](../wfgy-ai-problem-map-troubleshooting-atlas.md)

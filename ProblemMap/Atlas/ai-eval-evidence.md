@@ -1,6 +1,6 @@
 # AI Eval Evidence
 
-This page is the public evidence entry for early AI based evaluation snapshots of **Problem Map 3.0 Troubleshooting Atlas**.
+This page is the public evidence entry for early AI reviewed evaluation snapshots of **Problem Map 3.0 Troubleshooting Atlas**.
 
 It exists for one simple reason:
 
@@ -20,8 +20,6 @@ For now, this page provides a simple reproducible starting point so anyone can t
 ---
 
 ## What this page is
-
-This What this page is
 
 This page is a lightweight evidence surface for **AI reviewed evaluation snapshots** of the Atlas.
 
@@ -52,6 +50,113 @@ This page is **not**:
 Results may vary by model, prompt framing, task shape, and context quality.
 
 These materials should be read as **reproducible directional evidence**, not final benchmark science.
+
+---
+
+## How to read these snapshots
+
+These screenshots are useful because they let different frontier models inspect the same core claim from slightly different angles.
+
+They should **not** be read as if every screenshot uses perfectly identical:
+- metric definitions
+- baseline assumptions
+- units
+- scenario framing
+- output style
+
+What matters more is whether different evaluators converge on the same structural idea:
+
+> when the first debugging route is wrong, the total cost compounds  
+> when routing improves early, several downstream metrics often improve together
+
+So please read these as **cross model directional agreement**, not pooled benchmark math.
+
+---
+
+## Cross model snapshot index
+
+| Model | Snapshot | Reading note |
+|------|----------|--------------|
+| Claude Sonnet 4.6 | [View](./images/atlas-routing-eval-claude.png) | Mechanism heavy, strongest structured explanation |
+| ChatGPT 5.4 Thinking | [View](./images/atlas-routing-eval-chatgpt.png) | Conservative framing, clean operational interpretation |
+| Gemini 3 Pro | [View](./images/atlas-routing-eval-gemini.png) | Compact qualitative comparison, strong route first contrast |
+| DeepSeek V3 | [View](./images/atlas-routing-eval-deepseek.png) | Sharp before / after table with explicit productivity jump |
+| Copilot Think deeper | [View](./images/atlas-routing-eval-copilot.png) | Simple comparison table, readable engineering style |
+| Perplexity AI | [View](./images/atlas-routing-eval-perplexity.png) | Clear trial and error vs router framing |
+| Mistral AI | [View](./images/atlas-routing-eval-mistral.png) | Compact baseline / improvement table |
+| Kimi K2.5 Thinking | [View](./images/atlas-routing-eval-kimi.png) | Adds silence cost framing beyond surface debug time |
+
+---
+
+## Screenshot gallery
+
+<details>
+<summary><strong>Open the full cross model screenshot gallery</strong></summary>
+
+<br>
+
+Click any image to open the full size version.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <p><strong>Claude Sonnet 4.6</strong></p>
+      <a href="./images/atlas-routing-eval-claude.png">
+        <img src="./images/atlas-routing-eval-claude.png" alt="Claude Sonnet 4.6 evaluation snapshot" width="100%">
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <p><strong>ChatGPT 5.4 Thinking</strong></p>
+      <a href="./images/atlas-routing-eval-chatgpt.png">
+        <img src="./images/atlas-routing-eval-chatgpt.png" alt="ChatGPT 5.4 Thinking evaluation snapshot" width="100%">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p><strong>Gemini 3 Pro</strong></p>
+      <a href="./images/atlas-routing-eval-gemini.png">
+        <img src="./images/atlas-routing-eval-gemini.png" alt="Gemini 3 Pro evaluation snapshot" width="100%">
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <p><strong>DeepSeek V3</strong></p>
+      <a href="./images/atlas-routing-eval-deepseek.png">
+        <img src="./images/atlas-routing-eval-deepseek.png" alt="DeepSeek V3 evaluation snapshot" width="100%">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p><strong>Copilot Think deeper</strong></p>
+      <a href="./images/atlas-routing-eval-copilot.png">
+        <img src="./images/atlas-routing-eval-copilot.png" alt="Copilot Think deeper evaluation snapshot" width="100%">
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <p><strong>Perplexity AI</strong></p>
+      <a href="./images/atlas-routing-eval-perplexity.png">
+        <img src="./images/atlas-routing-eval-perplexity.png" alt="Perplexity AI evaluation snapshot" width="100%">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p><strong>Mistral AI</strong></p>
+      <a href="./images/atlas-routing-eval-mistral.png">
+        <img src="./images/atlas-routing-eval-mistral.png" alt="Mistral AI evaluation snapshot" width="100%">
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <p><strong>Kimi K2.5 Thinking</strong></p>
+      <a href="./images/atlas-routing-eval-kimi.png">
+        <img src="./images/atlas-routing-eval-kimi.png" alt="Kimi K2.5 Thinking evaluation snapshot" width="100%">
+      </a>
+    </td>
+  </tr>
+</table>
+
+</details>
 
 ---
 
@@ -114,11 +219,11 @@ This page is currently in the **evidence assembly phase**.
 
 The next updates planned for this page include:
 
-* multi model screenshot set
 * version tagged evaluation records
 * prompt variants
 * conservative vs stress framing notes
 * interpretation guidance for readers
+* better alignment between model specific output formats
 
 ---
 

@@ -53,7 +53,7 @@ Important:
 ## WFGY Recognition Map · RAG & Agent Ecosystem
 
 Canonical public record of integrations, citations, mentions, and ecosystem proof around WFGY.  
-> Last updated: 2026-03-11 · Manually maintained.
+> Last updated: 2026-03-15 · Manually maintained.
 
 Short summary pages:
 - [ADOPTERS.md](../ADOPTERS.md) · concise public adoption summary for evaluators and potential collaborators

@@ -1,11 +1,57 @@
-# Atlas Auto Repair to WFGY Bridge v1
+<!--
+AI_NOTE_START
 
-## 0. Document status
+Document role:
+This file defines the formal bridge between Atlas Auto Repair and deeper WFGY 3.0 continuation.
 
-This document defines the first formal bridge between:
+How to use this file:
+1. Read this page after understanding the basic Auto Repair package.
+2. Use this page to understand when a case should stay in Atlas or Auto Repair, and when it should continue into WFGY 3.0.
+3. Use this page together with:
+   - [Auto Repair v1 README](./README.md)
+   - [Repair Validation Loop v1](./repair-validation-loop-v1.md)
+   - [WFGY 3.0 Deeper Continuation Quickstart v1](./wfgy-3-0-deeper-continuation-quickstart-v1.md)
 
-- the Atlas / Auto Repair layer
-- and the deeper WFGY 3.0 repair layer
+What this file is:
+- The formal bridge page between local controlled repair and deeper continuation
+- A boundary document for escalation discipline
+- A guide for interpreting the relationship between Atlas, Auto Repair, and WFGY 3.0
+
+What this file is not:
+- Not a claim that every Atlas case should escalate
+- Not a claim that WFGY 3.0 replaces Atlas
+- Not proof that the whole stack is already fully automated
+- Not a vague theory note disconnected from the repair workflow
+
+Reading discipline for AI:
+- Preserve the distinction between Atlas diagnosis, Auto Repair, and WFGY 3.0 continuation.
+- Do not escalate to WFGY 3.0 by default.
+- Treat this file as a bridge rule, not as a replacement for routing or validation.
+- Keep local repair sufficiency, escalation criteria, and boundary discipline visible.
+
+AI_NOTE_END
+-->
+
+# Atlas Auto Repair to WFGY Bridge v1 🌉
+
+## How local controlled repair connects to deeper WFGY 3.0 continuation
+
+Quick links:
+
+- [Back to Auto Repair v1 README](./README.md)
+- [Back to Fixes Hub](../README.md)
+- [Back to Official Fixes](../official/README.md)
+- [Back to Atlas landing page](../../../wfgy-ai-problem-map-troubleshooting-atlas.md)
+- [Back to AI Eval Evidence](../../ai-eval-evidence.md)
+- [Back to Atlas Hub](../../README.md)
+- [Get the Atlas Router TXT](../../troubleshooting-atlas-router-v1.txt)
+- [Open Auto Repair Architecture v1](./auto-repair-architecture-v1.md)
+- [Open Repair Validation Loop v1](./repair-validation-loop-v1.md)
+- [Open WFGY 3.0 Deeper Continuation Quickstart v1](./wfgy-3-0-deeper-continuation-quickstart-v1.md)
+
+---
+
+If the Atlas is the layer that routes the case, and Auto Repair is the layer that attempts the first controlled move, this document defines **when and why the workflow should continue into WFGY 3.0**. 🧭
 
 Its purpose is to make one relationship explicit:
 
@@ -18,6 +64,34 @@ It claims something narrower and more useful:
 
 > Atlas handles diagnosis and first controlled repair movement.  
 > WFGY 3.0 provides the deeper repair grammar when the case needs more than a local fix.
+
+---
+
+## Quick start 🚀
+
+### I want the shortest practical reading
+
+Use this path:
+
+1. confirm the Atlas route
+2. inspect the local Auto Repair attempt
+3. ask whether local repair is enough
+4. escalate only if the case still needs deeper structural continuation
+
+### I want the architectural reading
+
+Start here:
+
+1. this bridge document
+2. [Auto Repair v1 README](./README.md)
+3. [Repair Validation Loop v1](./repair-validation-loop-v1.md)
+4. [WFGY 3.0 Deeper Continuation Quickstart v1](./wfgy-3-0-deeper-continuation-quickstart-v1.md)
+
+Short version:
+
+> route first  
+> try the local controlled move  
+> escalate only when local repair is not enough ✨
 
 ---
 
@@ -38,7 +112,7 @@ That stack is already useful on its own.
 
 But there is an important architectural question:
 
-> when does the workflow stop at Atlas / Auto Repair,
+> when does the workflow stop at Atlas or Auto Repair,  
 > and when should it continue into deeper WFGY 3.0 reasoning?
 
 This document exists to answer that clearly.
@@ -46,9 +120,11 @@ This document exists to answer that clearly.
 Without this bridge, users may misread the system in one of two wrong ways:
 
 ### Wrong reading A
+
 Atlas alone is already the full deep repair engine.
 
 ### Wrong reading B
+
 WFGY 3.0 is unrelated to Atlas and belongs to a separate universe.
 
 Both readings are wrong.
@@ -60,11 +136,12 @@ The correct reading is:
 
 ---
 
-## 2. High-level role split
+## 2. High-level role split 🧩
 
 The cleanest role split is this:
 
 ### Atlas
+
 The Atlas is the **troubleshooting grammar**.
 
 It answers:
@@ -75,6 +152,7 @@ It answers:
 - what first repair direction should be tried
 
 ### Auto Repair
+
 Auto Repair is the **first controlled repair layer**.
 
 It answers:
@@ -85,6 +163,7 @@ It answers:
 - which small repair actions are safe enough to try first
 
 ### WFGY 3.0
+
 WFGY 3.0 is the **deeper repair and experiment grammar**.
 
 It answers questions like:
@@ -93,7 +172,7 @@ It answers questions like:
 - what observables, mismatch functionals, or experiment templates should be used
 - how should the problem be re-expressed at the effective layer
 - how should cross-domain structure be compared or reused
-- what deeper AI / engineering modules might be relevant
+- what deeper AI or engineering modules might be relevant
 
 This means the stack should be read as:
 
@@ -134,8 +213,8 @@ So the intended stack is:
 
 The bridge principle is simple:
 
-> if a local repair move is enough, stay in Atlas / Auto Repair.
-> if the case needs encoding redesign, deeper observables, harder experiment logic, or broader structural reframing, escalate to WFGY 3.0.
+> if a local repair move is enough, stay in Atlas or Auto Repair
+> if the case needs encoding redesign, deeper observables, harder experiment logic, or broader structural reframing, escalate to WFGY 3.0
 
 This principle prevents two mistakes:
 
@@ -218,7 +297,7 @@ In that situation, deeper grammar becomes a rational next step.
 
 ---
 
-## 7. What kinds of cases should usually stay in Atlas / Auto Repair first
+## 7. What kinds of cases should usually stay in Atlas or Auto Repair first
 
 Not every case needs WFGY 3.0 immediately.
 
@@ -244,7 +323,7 @@ The bridge should not be used as an excuse to overcomplicate simple cases.
 
 ---
 
-## 8. Operational bridge workflow
+## 8. Operational bridge workflow ⚙️
 
 The intended workflow is:
 
@@ -293,9 +372,7 @@ The official TXT continuation pack should be referenced directly.
 
 ### Official raw TXT link
 
-```text
-https://raw.githubusercontent.com/onestardao/WFGY/refs/heads/main/TensionUniverse/WFGY-3.0_Singularity-Demo_AutoBoot_SHA256-Verifiable.txt
-```
+* [WFGY 3.0 Singularity Demo TXT](https://raw.githubusercontent.com/onestardao/WFGY/refs/heads/main/TensionUniverse/WFGY-3.0_Singularity-Demo_AutoBoot_SHA256-Verifiable.txt)
 
 This is the simplest way to hand the deeper layer to another AI system.
 
@@ -303,7 +380,7 @@ The shortest operational instruction is:
 
 1. load the Atlas case and current repair state
 2. if local repair is insufficient, give the WFGY 3.0 TXT to the model
-3. ask the model to continue from the deeper repair / encoding / experiment layer
+3. ask the model to continue from the deeper repair, encoding, or experiment layer
 
 ---
 
@@ -328,7 +405,7 @@ Use WFGY 3.0 when you want:
 * better effective-layer encoding
 * experiment logic
 * cross-domain structural comparison
-* stronger AI / engineering continuation
+* stronger AI or engineering continuation
 
 That means the official practical message can be:
 
@@ -416,7 +493,7 @@ This bridge document does **not** claim:
 
 It only claims:
 
-> the relationship between Atlas, Auto Repair, and WFGY 3.0 is now explicit and architecturally coherent.
+> the relationship between Atlas, Auto Repair, and WFGY 3.0 is now explicit and architecturally coherent
 
 ---
 
@@ -424,17 +501,35 @@ It only claims:
 
 Once this bridge file exists, the next useful follow-up is one of these:
 
-1. add a short “Deeper continuation” block to tiny semi-auto demos
-2. add a short WFGY escalation note to Fixes README
+1. add a short deeper-continuation block to tiny semi-auto demos
+2. add a short WFGY escalation note to Auto Repair README
 3. add one small worked example showing:
    Atlas → local repair attempt → escalation into WFGY 3.0
 
 The strongest immediate next step is probably:
 
-> add a short deeper-continuation block into the next auto-repair demo pack.
+> add a short deeper-continuation block into the next auto-repair demo pack
 
 ---
 
-## 17. One-line summary
+## 17. Next steps ✨
+
+After this page, most readers continue with:
+
+1. [Back to Auto Repair v1 README](./README.md)
+2. [Open Repair Validation Loop v1](./repair-validation-loop-v1.md)
+3. [Open WFGY 3.0 Deeper Continuation Quickstart v1](./wfgy-3-0-deeper-continuation-quickstart-v1.md)
+4. [Open Worked Escalation Example v1](./worked-escalation-example-v1.md)
+
+If you want the broader product surface:
+
+* [Back to Fixes Hub](../README.md)
+* [Back to Official Fixes](../official/README.md)
+* [Back to Atlas landing page](../../../wfgy-ai-problem-map-troubleshooting-atlas.md)
+* [Back to Atlas Hub](../../README.md)
+
+---
+
+## 18. One-line summary 🌍
 
 **Atlas Auto Repair to WFGY Bridge v1 defines how Atlas diagnosis and first controlled repair connect to WFGY 3.0 as the deeper repair and experiment grammar.**

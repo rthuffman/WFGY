@@ -1,6 +1,6 @@
 # WFGY ProblemMap Scan
 
-Generated at: 2026-03-19 06:01:31 UTC
+Generated at: 2026-03-20 05:56:53 UTC
 
 ## ProblemMap files
 
@@ -90,6 +90,7 @@ ProblemMap/Atlas/atlas-to-ai-adapter-v1.md
 ProblemMap/Atlas/atlas-v1-integrated-handoff.md
 ProblemMap/Atlas/canonical-casebook-v1.md
 ProblemMap/Atlas/civilization-bridge-modules-v1.md
+ProblemMap/Atlas/cross-domain-demonstration-pack-v2.md
 ProblemMap/Atlas/cross-domain-freeze-note-v2.md
 ProblemMap/Atlas/images/.gitkeep
 ProblemMap/Atlas/images/Hero_Atlas_02.png
@@ -772,4 +773,4 @@ ProblemMap/wfgy-metrics.md
 ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md
 
 Total ProblemMap docs:
-766
+767

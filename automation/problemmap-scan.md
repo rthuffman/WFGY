@@ -1,6 +1,6 @@
 # WFGY ProblemMap Scan
 
-Generated at: 2026-03-20 05:56:53 UTC
+Generated at: 2026-03-21 05:46:47 UTC
 
 ## ProblemMap files
 
@@ -84,8 +84,18 @@ ProblemMap/Atlas/README.md
 ProblemMap/Atlas/adapter-failure-discipline-v1.md
 ProblemMap/Atlas/adapter-runtime-modes-v1.md
 ProblemMap/Atlas/ai-eval-evidence.md
+ProblemMap/Atlas/atlas-boundary-decision-guide-v1.mdatlas-boundary-decision-guide-v1.md
+ProblemMap/Atlas/atlas-evidence-and-confidence-discipline-v1.md
+ProblemMap/Atlas/atlas-family-mini-specs-v1.md
 ProblemMap/Atlas/atlas-final-freeze-v1.md
+ProblemMap/Atlas/atlas-first-fix-and-misrepair-discipline-v1.md
+ProblemMap/Atlas/atlas-fit-candidate-registry-v1.md
 ProblemMap/Atlas/atlas-negative-space-report-v1.md
+ProblemMap/Atlas/atlas-overlay-and-secondary-family-discipline-v1.md
+ProblemMap/Atlas/atlas-promotion-and-patch-thresholds-v1.md
+ProblemMap/Atlas/atlas-routing-output-contract-v1.md
+ProblemMap/Atlas/atlas-structure-map-v1.md
+ProblemMap/Atlas/atlas-subtree-expansion-index-v1.md
 ProblemMap/Atlas/atlas-to-ai-adapter-v1.md
 ProblemMap/Atlas/atlas-v1-integrated-handoff.md
 ProblemMap/Atlas/canonical-casebook-v1.md
@@ -773,4 +783,4 @@ ProblemMap/wfgy-metrics.md
 ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md
 
 Total ProblemMap docs:
-767
+777

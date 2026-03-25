@@ -2,7 +2,10 @@
 
 > A legitimacy-first AI runtime for rigorous reasoning in the age of over-answering.  
 > Inverse Atlas governs whether a model may answer, how strongly it may answer, when it must stay broad,  
-> unresolved, or stop, and how far it may go under legitimate reasoning conditions. ⚖️  
+> unresolved, or stop, and how far it may go under legitimate reasoning conditions. ⚖️
+
+<img width="1536" height="1024" alt="Inverse_Atlas_Hero" src="https://github.com/user-attachments/assets/4761f80e-b134-43d0-8ce4-48c3e656e877" />
+
 
 Most AI systems are built as if answering is the default.
 

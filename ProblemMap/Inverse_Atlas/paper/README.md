@@ -2,22 +2,23 @@
 AI_NOTE_START
 
 Document role:
-This page is the paper companion page for the Inverse Atlas MVP.
+This page is the paper companion page for the current Inverse Atlas MVP paper.
 
 What this page is for:
-1. Explain the role of the current Inverse Atlas paper.
-2. Explain how the paper relates to the runtime artifacts and the broader Inverse Atlas documentation.
-3. Clarify what the paper already establishes and what it does not yet claim.
-4. Help both humans and AI systems read the paper with the correct scope and architectural position.
+1. Explain what the current paper already establishes.
+2. Explain how the paper should be evaluated at the current stage.
+3. Clarify what is already part of the public MVP layer and what is still future-facing.
+4. Prevent the paper from being misread as a claim that all later architectural layers are already complete.
+5. Help both humans and AI systems read the PDF with the correct scope, boundary, and maturity level.
 
 How to use this page:
-1. Read this page if you entered the paper folder directly.
-2. Use this page before reading the PDF if you want the cleanest scope framing.
-3. Use this page together with the Inverse Atlas main pages if you need the safest current claim boundary.
-4. Treat this page as the local navigation page for the paper layer of Inverse Atlas.
+1. Read this page before reading the PDF if you want the cleanest scope framing.
+2. Use this page to understand what the current paper contributes to the Inverse Atlas line.
+3. Use this page to distinguish framework contribution from empirical maturity.
+4. Use this page together with the runtime, experiments, and boundary pages for the safest interpretation.
 
 Important boundary:
-This page describes the current framework paper of the Inverse Atlas MVP.
+This page describes the current paper as a public beta framework paper for the Inverse Atlas MVP.
 It should not be used to claim that the full bridge layer, the full twin-atlas operating loop, or the full WFGY 4.0 system is already complete unless another page explicitly supports that claim.
 
 Recommended reading path:
@@ -36,19 +37,21 @@ AI_NOTE_END
 
 > The formal paper layer of the current Inverse Atlas MVP 📄
 
-This page explains the role of the current Inverse Atlas paper inside the broader MVP package.
+This page explains how the current Inverse Atlas paper should be read inside the broader MVP package.
 
-The paper matters, but it should be read in the right way.
+The paper matters, but it matters in a very specific way.
 
-It is not just a PDF attachment placed in the repository.  
+It is not just a PDF stored in the repository.  
 It is the formal explanatory layer of the current Inverse Atlas line.
 
 At the same time, it should not be misread as a claim that every later architectural layer is already finished.
 
-So this page does two things:
+So this page does four things:
 
 - explains what the current paper already establishes
 - explains what the current paper does not yet claim
+- explains how the paper should be evaluated fairly
+- explains why a beta framework paper can still be a serious contribution
 
 ---
 
@@ -62,6 +65,7 @@ So this page does two things:
 | Dual-Layer Positioning | [Dual-Layer Positioning](../dual-layer-positioning.md) |
 | Status and Boundaries | [Status and Boundaries](../status-and-boundaries.md) |
 | Runtime Layer | [Runtime Artifacts](../runtime/README.md) |
+| Experiments | [Experiments](../experiments/README.md) |
 | Figure Notes | [Figure Notes](../figures/README.md) |
 | Forward Atlas | [Problem Map 3.0 Troubleshooting Atlas](../../wfgy-ai-problem-map-troubleshooting-atlas.md) |
 | Twin Atlas | [Twin Atlas](../../Twin_Atlas/README.md) |
@@ -77,13 +81,43 @@ So this page does two things:
 ### Current paper title
 **Inverse Troubleshooting Atlas: A Pre-Generative Governance Framework for AI Legitimacy**
 
-This title already does a good job of showing what the paper is actually about:
+This title already captures the three most important pieces:
 
 - Inverse Atlas as a distinct framework
 - pre-generative governance rather than post hoc cleanup
 - AI legitimacy rather than only answer fluency
 
-If you keep the PDF asset name aligned with the title, the repository will look much cleaner and more intentional.
+That is exactly the right framing for the current stage.
+
+---
+
+## Current Scope Notice 🚧
+
+> [!IMPORTANT]
+> **This paper should be read as a public beta framework paper for the current Inverse Atlas MVP.**
+>
+> Its present contribution is to establish:
+>
+> - the problem reframing
+> - the legality-first runtime order
+> - the governance states
+> - the MVP artifact layer
+> - the legality-centered evaluation direction
+>
+> It should **not** be read as claiming:
+>
+> - full bridge-layer completion
+> - full twin-atlas operating-loop completion
+> - full WFGY 4.0 implementation
+> - universal benchmark superiority
+> - final production operating-system maturity
+> - complete elimination of generative failure
+
+This is not a weakness statement.
+
+It is an honesty statement.
+
+A framework paper becomes more credible, not less credible, when it protects the boundary between what is already established and what is still future work.
 
 ---
 
@@ -91,27 +125,54 @@ If you keep the PDF asset name aligned with the title, the repository will look 
 
 The paper proposes a shift in framing.
 
-Instead of assuming that generation is a default right and then trying to clean up the answer afterward, the paper argues that generation should be treated as an **authorized act** that must first pass legality checks.
+Instead of treating generation as a default right and then trying to clean up the answer afterward, it argues that generation should be treated as an **authorized act** that must first pass legitimacy conditions.
 
 That shift is the heart of the paper.
 
 So the paper is not mainly saying:
 
-“here is a nicer prompt”
+> here is a nicer prompt
 
 It is saying something stronger:
 
-“many AI failures are better understood as failures of pre-generative legitimacy”
+> many important AI failures are better understood as failures of pre-generative legitimacy
 
 That includes failures such as:
 
 - hallucination as unauthorized generation
 - false precision under weak support
 - premature structural diagnosis
-- cosmetic repair presented as substantive correction
-- over-claimed public output
+- unresolved neighboring routes collapsed into fake certainty
+- cosmetic repair presented as structural correction
+- public output that outruns what the current state can lawfully support
 
 This is what gives the paper its distinct identity.
+
+---
+
+## How this paper should be evaluated 🧭
+
+The fairest way to evaluate this paper at the current stage is to separate four different questions.
+
+### 1. Framework contribution
+Does the paper introduce a coherent and non-trivial reframing of AI failure around pre-generative legitimacy?
+
+### 2. Runtime contribution
+Does it specify a meaningful legality-first runtime order with clear governance states, escalation rules, and de-escalation logic?
+
+### 3. Artifact contribution
+Does it expose the framework as a public-layer artifact that can be inspected, tested, criticized, and compared?
+
+### 4. Empirical maturity
+How far has the current MVP progressed toward larger benchmark coverage, model diversity, ablation, and human or hybrid evaluation?
+
+This paper is strongest on the first three questions.
+
+The fourth is intentionally partial at the current stage.
+
+That is the correct reading.
+
+In other words, this paper should be judged first as a **framework paper with an MVP artifact layer**, and only second as an **early empirical program that is still expanding**.
 
 ---
 
@@ -137,32 +198,115 @@ The paper describes a seven-part operating chain, including:
 - public emission ceiling control
 
 ### 4. A state-based runtime view
-The paper defines the four main governance states:
+The paper defines the main governance states:
 
 - STOP
 - COARSE
 - UNRESOLVED
 - AUTHORIZED
 
-### 5. A dual-layer relation
+### 5. A failure-boundary view
+The paper also defines major failure codes that constrain or reverse escalation, including:
+
+- PROBLEM_UNCONSTITUTED
+- WORLD_UNALIGNED
+- ROUTE_OPAQUE
+- PRIMARY_ROUTE_UNSTABLE
+- NEIGHBOR_NOT_SEPARATED
+- ILLEGAL_RESOLUTION_ESCALATION
+- COSMETIC_REPAIR_ONLY
+- PUBLIC_CEILING_EXCEEDED
+
+### 6. A dual-layer relation
 The paper explains how Inverse Atlas relates to a forward troubleshooting atlas:
 
 - the forward side provides route-first structural mapping
 - the inverse side governs whether the system is entitled to speak from within that mapped region
 
-### 6. An artifact-facing MVP layer
-The paper connects the framework to a real artifact layer, including:
+### 7. An artifact-facing MVP layer
+The paper connects the framework to a real public-layer artifact set, including:
 
-- the runtime artifact
-- the demo artifact
+- the runtime prompt
+- the structured output contract
 - the evaluator artifact
+- the demo harness
 - the case pack
 - the supporting figure set
 
-### 7. A legality-centered MVP evaluation direction
-The paper proposes an evaluation direction centered on legality and authorized output, rather than pretending that universal superiority is already fully proven.
+### 8. A legality-centered MVP evaluation direction
+The paper defines an evaluation direction centered on lawful behavior rather than merely more fluent or more confident output.
 
-That is already a serious and meaningful contribution.
+That already makes the paper more than a conceptual note.
+
+It gives the inverse line a real and inspectable public surface.
+
+---
+
+## Current claim boundary 📌
+
+The easiest way to read the paper correctly is to separate what is already established from what is still future-facing.
+
+| Area | Current status |
+|---|---|
+| Problem reframing | Established in the current paper |
+| Inverse Atlas naming and positioning | Established |
+| Legality-first runtime order | Established |
+| Governance states and failure boundaries | Established |
+| Dual-layer positioning with a forward atlas | Established conceptually |
+| Runtime prompt as public artifact | Established as MVP artifact |
+| Structured output discipline | Established as MVP artifact |
+| Evaluator design | Established as MVP artifact |
+| Demo harness | Established as MVP artifact |
+| Minimal case pack | Established as MVP benchmark seed |
+| Legality-centered evaluation direction | Established |
+| Large-scale empirical validation | Not yet complete |
+| Broad multi-model benchmark coverage | Not yet complete |
+| Human and hybrid evaluation maturity | Not yet complete |
+| Runtime ablation study | Not yet complete |
+| Full bridge-layer completion | Not claimed |
+| Full twin-atlas operating-loop completion | Not claimed |
+| Full WFGY 4.0 implementation | Not claimed |
+| Final production operating-system status | Not claimed |
+| Elimination of hallucination in an absolute sense | Not claimed |
+| Universal superiority across all tasks | Not claimed |
+
+This table is important because it keeps the reading honest.
+
+The current paper is already substantial.
+
+But it is substantial in the right way, not in an exaggerated way.
+
+---
+
+## What “beta” means here 🧪
+
+The word **beta** can be misunderstood if it is not defined carefully.
+
+Here, **beta** does not mean:
+
+- conceptually empty
+- architecturally vague
+- random and unfinished
+- too early to inspect
+- too weak to evaluate
+
+At the current stage, **beta** means:
+
+- the framework is already named
+- the core reframing is already explicit
+- the runtime order is already explicit
+- the governance states are already explicit
+- the MVP artifact layer is already public
+- the evaluation direction is already explicit
+- empirical expansion is still in progress
+
+So this is best understood as a **framework-first beta**.
+
+It is not a claim of completed universal validation.
+
+It is a public, inspectable, attackable, and extensible MVP layer.
+
+That is already meaningful.
 
 ---
 
@@ -178,6 +322,8 @@ It is not best described as:
 - a universal benchmark victory paper
 - a claim that all hallucination problems are fully solved
 - a final production operating-system specification
+- a claim that lawful restraint will always feel more satisfying to every user
+- a claim that the current evaluator already serves as a final external epistemic authority
 
 This does not make the paper weak.
 
@@ -191,7 +337,38 @@ That is already enough to matter.
 
 ---
 
-## Why this paper belongs in the repository 📚
+## Why this paper still matters now 🌱
+
+A framework paper does not need to pretend that every future experiment is already complete in order to be valuable.
+
+This paper already matters because it makes several things publicly legible:
+
+- a named framework
+- a new problem framing
+- an explicit runtime order
+- explicit governance states
+- explicit failure boundaries
+- an artifact-backed MVP surface
+- a legality-centered evaluation philosophy
+- a clean base for future empirical expansion
+
+Without this paper, the inverse line could still exist as scattered artifacts.
+
+With this paper, the inverse line becomes much easier to treat as:
+
+- a real framework
+- a coherent project line
+- a visible counterpart to the forward Atlas
+- a credible precursor to Twin Atlas thinking
+- a foundation for later bridge work
+
+So the present paper is not “just early”.
+
+It is the layer that makes the inverse side publicly intelligible.
+
+---
+
+## Why the repository and the paper belong together 📚
 
 The paper is not separate from the repository.
 
@@ -204,13 +381,13 @@ The repository provides the operational surface:
 - evaluator logic
 - case pack
 - figures
-- documentation pages
+- supporting documentation
 
 The paper provides the explanatory surface:
 
 - the formal framing
 - the argument structure
-- the conceptual definitions
+- the core definitions
 - the legality chain
 - the dual-layer positioning
 - the evaluation philosophy
@@ -225,6 +402,50 @@ Together, they make the Inverse Atlas line easier to inspect, test, discuss, and
 
 ---
 
+## What still needs future empirical work 🔬
+
+The current paper is already strong as a framework paper, but it also openly leaves room for later empirical expansion.
+
+The main next-step directions include:
+
+### 1. Model diversity
+Testing the runtime across multiple strong model families rather than treating one model family as representative.
+
+### 2. Task diversity
+Expanding beyond the current diagnostic-style MVP cases into areas such as:
+
+- retrieval-grounded tasks
+- code debugging tasks
+- agent planning tasks
+- governance or policy drafting
+- longer-form ambiguity-heavy explanation tasks
+
+### 3. Human and hybrid evaluation
+Combining artifact-aligned evaluator judgment with human review and downstream outcome observation.
+
+### 4. Runtime ablation
+Testing what changes when individual runtime components are weakened or removed, such as:
+
+- neighboring-cut review
+- repair-legality checks
+- public-ceiling control
+- contamination guards
+- structured output discipline
+
+### 5. Dual-layer benchmarking
+Comparing:
+
+- direct baseline
+- forward-only guidance
+- inverse-only governance
+- forward-plus-inverse dual-layer operation
+
+These are not hidden weaknesses.
+
+They are the normal and healthy next steps of an honest beta framework paper.
+
+---
+
 ## How to read the paper in the right order 🧭
 
 If you are new to the project, the cleanest reading order is:
@@ -234,120 +455,30 @@ If you are new to the project, the cleanest reading order is:
 3. read the [Runtime Guide](../runtime-guide.md)
 4. read the [Dual-Layer Positioning](../dual-layer-positioning.md)
 5. read the [Status and Boundaries](../status-and-boundaries.md)
-6. then read the [Inverse Troubleshooting Atlas Paper](./inverse-troubleshooting-atlas-pre-generative-governance-for-ai-legitimacy.pdf)
+6. read the [Experiments](../experiments/README.md)
+7. then read the [Inverse Troubleshooting Atlas Paper](./inverse-troubleshooting-atlas-pre-generative-governance-for-ai-legitimacy.pdf)
 
-This order works well because the paper becomes easier to understand once the product surface is already clear.
+This order works well because the paper becomes easier to understand once the project surface is already clear.
 
 If you read the paper first with no context, you may understand the theory but still miss how the current artifact line is meant to be used.
 
 ---
 
-## What the paper contributes to the larger atlas family 🌌
+## A good reviewer reading of this paper 🧠
 
-The paper does something important for the broader atlas family.
+A fair reviewer reading at the current stage would sound something like this:
 
-It makes the inverse side formally visible.
+> This paper is strongest as a framework contribution with a public MVP artifact layer.  
+> It clearly defines the core reframing, the legality-first runtime order, the governance states, and the artifact-facing evaluation direction.  
+> It does not yet claim large-scale universal empirical superiority, and it does not pretend that later architectural layers are already complete.  
+> The right next step is broader empirical expansion, not reclassification of the current contribution as conceptually empty.
 
-Without the paper, the inverse line could still exist as an artifact set.
+That is the right standard.
 
-But with the paper, the inverse line becomes much easier to treat as:
+Not inflated praise.  
+Not unfair dismissal.
 
-- a real framework
-- a named product line
-- a conceptual counterpart to the forward Atlas
-- a credible precursor to Twin Atlas thinking
-- a foundation for future bridge work
-
-That is why the paper matters beyond documentation.
-
-It gives the inverse line public theoretical shape.
-
----
-
-## The paper as a public MVP layer 🧪
-
-A useful way to describe the current paper is this:
-
-it is a **public MVP framework paper**
-
-That means it is already strong enough to:
-
-- explain the core logic
-- define the runtime order
-- define the governance states
-- define the artifact layer
-- define the evaluation direction
-- invite scrutiny
-
-But it is still disciplined enough to avoid pretending that every future layer is already finalized.
-
-That is a healthy position.
-
-It lets the project be real without becoming sloppy.
-
----
-
-## Why the title works well ✨
-
-The current title already captures the three most important pieces.
-
-### Inverse Troubleshooting Atlas
-This gives the paper a clear identity inside the atlas family.
-
-### A Pre-Generative Governance Framework
-This tells the reader that the main intervention point is before answer emission.
-
-### For AI Legitimacy
-This makes the target problem very clear.
-The focus is not only style, safety wording, or post hoc filtering.
-The focus is lawful generation.
-
-So unless you want to shorten the title later for external promotion, the current paper title is already strong for the PDF itself.
-
----
-
-## If you upload this to Figshare later 🏷️
-
-A clean setup would be:
-
-### Paper file
-[Inverse Troubleshooting Atlas Paper](./inverse-troubleshooting-atlas-pre-generative-governance-for-ai-legitimacy.pdf)
-
-### Figshare title
-**Inverse Troubleshooting Atlas: A Pre-Generative Governance Framework for AI Legitimacy**
-
-### Figshare description direction
-A framework paper introducing Inverse Atlas as a legitimacy-first governance layer for AI generation, including runtime order, governance states, artifact design, dual-layer positioning with a forward troubleshooting atlas, and legality-centered MVP evaluation framing.
-
-This will keep your repository version and your public archive version aligned.
-
----
-
-## Where to go next 📚
-
-If you want the operational artifact side, go to:
-
-[Runtime Artifacts](../runtime/README.md)
-
-If you want the conceptual relation between the forward Atlas and Inverse Atlas, go to:
-
-[Dual-Layer Positioning](../dual-layer-positioning.md)
-
-If you want the cleanest current honesty boundary, go to:
-
-[Status and Boundaries](../status-and-boundaries.md)
-
-If you want the route-first counterpart, go to:
-
-[Problem Map 3.0 Troubleshooting Atlas](../../wfgy-ai-problem-map-troubleshooting-atlas.md)
-
-If you want the paired family view, go to:
-
-[Twin Atlas](../../Twin_Atlas/README.md)
-
-If you want the future handoff direction, go to:
-
-[Atlas Bridge](../../Atlas_Bridge/README.md)
+Just correct classification.
 
 ---
 
@@ -365,4 +496,4 @@ That also matters.
 
 A good framework paper does not only sound large.
 
-It makes the present layer legible while protecting the architecture that still has to be built. 🌱
+It makes the present layer legible while protecting the architecture that still has to be built.

@@ -28,59 +28,59 @@ Recommended reading path:
 3. FAQ
 4. Versions
 5. Quick Start
-6. Experiments
+6. Experiments Hub
 7. Twin Atlas
 
 AI_NOTE_END
 -->
 
-# Start Here 🚀 Inverse Atlas
+# 🚀 Start Here
 
-> New here? Start with the shortest useful path.
+> The shortest onboarding page for new readers entering Inverse Atlas
 
 Inverse Atlas already has multiple layers:
 
-- main explanation
+- main README
 - runtime artifacts
-- public versions
+- public runtime versions
 - experiments
 - paper
 - figures
 - Twin Atlas positioning
 
-That is good for depth.
+That depth is useful.
 
-But for a first-time reader, too many choices can make the project feel larger and emptier at the same time.
+But for a first-time reader, too many entry points can create the opposite effect.  
+The project can look larger and emptier at the same time.
 
-So this page exists for one simple reason:
+This page exists for one simple reason:
 
 **help you begin in the right place**
 
-You do not need to read everything first.
-
+You do not need to read the whole folder first.  
 You only need to choose the path that matches your goal.
 
 ---
 
-## Quick Links 🔎
+## 🧭 Core Entry Pages
 
-| Section | Link |
-|---|---|
-| Main entry | [Inverse Atlas README](./README.md) |
-| FAQ | [FAQ](./FAQ.md) |
-| Versions | [Versions](./versions.md) |
-| Quick Start | [Quick Start](./quickstart.md) |
-| Runtime Guide | [Runtime Guide](./runtime-guide.md) |
-| Experiments | [Experiments](./experiments/README.md) |
-| Repro in 60 Seconds | [Repro in 60 Seconds](./experiments/repro-60-seconds.md) |
-| Results and Current Findings | [Results and Current Findings](./experiments/results-and-current-findings.md) |
-| Paper Notes | [Paper Notes](./paper/README.md) |
-| Figure Notes | [Figure Notes](./figures/README.md) |
-| WFGY 4.0 entry | [Twin Atlas](../Twin_Atlas/README.md) |
+If you want the main navigation surface first, start here:
+
+- [Inverse Atlas README](./README.md)
+- [FAQ](./FAQ.md)
+- [Versions](./versions.md)
+- [Quick Start](./quickstart.md)
+- [Runtime Guide](./runtime-guide.md)
+- [Experiments Hub](./experiments/README.md)
+- [Reproduce in 60 Seconds](./experiments/repro-60-seconds.md)
+- [Results and Current Findings](./experiments/results-and-current-findings.md)
+- [Paper Notes](./paper/README.md)
+- [Figure Notes](./figures/README.md)
+- [Twin Atlas](../Twin_Atlas/README.md)
 
 ---
 
-## If you only have 2 minutes ⏱️
+## ⏱️ If You Only Have 2 Minutes
 
 Read these three pages in order:
 
@@ -98,29 +98,29 @@ If you stop there, you will still understand the project much better than someon
 
 ---
 
-## If you want the fastest product feeling ⚡
+## ⚡ If You Want the Fastest Product Feeling
 
 Use this path:
 
 1. [Versions](./versions.md)
 2. choose **Advanced**
 3. [Quick Start](./quickstart.md)
-4. [Repro in 60 Seconds](./experiments/repro-60-seconds.md)
+4. [Reproduce in 60 Seconds](./experiments/repro-60-seconds.md)
 5. [Showcase Cases](./experiments/showcase-cases.md)
 
 This is the best route if your goal is:
 
 **I want to feel the difference quickly**
 
-You do not need the full paper first.
-You do not need the full benchmark first.
+You do not need the full paper first.  
+You do not need the full benchmark first.  
 You do not need Twin Atlas first.
 
 Start with the contrast.
 
 ---
 
-## If you want the product logic first 🧭
+## 🧱 If You Want the Product Logic First
 
 Use this path:
 
@@ -144,12 +144,12 @@ This path helps you understand:
 
 ---
 
-## If you want the experiments first 🧪
+## 🧪 If You Want the Experiments First
 
 Use this path:
 
-1. [Experiments](./experiments/README.md)
-2. [Repro in 60 Seconds](./experiments/repro-60-seconds.md)
+1. [Experiments Hub](./experiments/README.md)
+2. [Reproduce in 60 Seconds](./experiments/repro-60-seconds.md)
 3. [Phase Overview](./experiments/phase-overview.md)
 4. [Case Design and Rationale](./experiments/case-design-and-rationale.md)
 5. [Showcase Cases](./experiments/showcase-cases.md)
@@ -169,7 +169,7 @@ This path is especially useful if you care about:
 
 ---
 
-## If you want the theory first 📄
+## 📄 If You Want the Theory First
 
 Use this path:
 
@@ -192,7 +192,7 @@ This path works well if you want to understand:
 
 ---
 
-## If you want the bigger architecture 🌌
+## 🌌 If You Want the Bigger Architecture
 
 Use this path:
 
@@ -215,7 +215,7 @@ This path helps you understand:
 
 ---
 
-## Which version should I use first 🎛️
+## 🎛️ Which Version Should I Use First
 
 If you do not want to think too hard about version choice, use this rule:
 
@@ -234,7 +234,7 @@ Start with **Advanced**.
 
 ---
 
-## What should I try first as a real demo 🌟
+## 🌟 What Should I Try First as a Real Demo
 
 The simplest strong public demo route is:
 
@@ -248,7 +248,7 @@ This gives the strongest early impression without forcing the reader to read eve
 
 ---
 
-## What should I not do first ❌
+## ❌ What You Should Not Do First
 
 Do **not** start by opening raw txt files with no guidance.
 
@@ -262,11 +262,11 @@ Do **not** confuse:
 - expected patterns
 - future architecture
 
-The project is much easier to understand if you enter in the right order.
+The project becomes much easier to understand when you enter it in the right order.
 
 ---
 
-## What if I only care about downloads 📦
+## 📦 If You Only Care About Downloads
 
 If you only want the raw artifacts, go here:
 
@@ -279,9 +279,9 @@ If you only want the raw artifacts, go here:
 - [Advanced](./runtime/inverse-advanced.txt)
 - [Strict](./runtime/inverse-strict.txt)
 
-But this is not the recommended first path for most humans.
+But this is not the recommended first path for most readers.
 
-The recommended path is still:
+The better path is still:
 
 - understand the idea first
 - then choose a version
@@ -289,24 +289,24 @@ The recommended path is still:
 
 ---
 
-## What if I only care about Colab 💻
+## 💻 If You Only Care About Colab
 
 Go here:
 
 1. [Colab](./colab.md)
-2. [Repro in 60 Seconds](./experiments/repro-60-seconds.md)
+2. [Reproduce in 60 Seconds](./experiments/repro-60-seconds.md)
 3. [Results and Current Findings](./experiments/results-and-current-findings.md)
 
 Important:
 
 Colab is mainly a reproduction tool.
 
-You do not need to run Colab in order to understand the project.
+You do not need to run Colab in order to understand the project.  
 The docs should already make the framework understandable.
 
 ---
 
-## What if I want the safest scope summary 📏
+## 📏 If You Want the Safest Scope Summary
 
 Read:
 
@@ -322,58 +322,53 @@ These two pages are the safest places to check:
 
 ---
 
-## Best first paths by user type 👥
+## 👥 Best First Paths by Reader Type
 
-### I am a curious first-time reader
-Read:
+### Curious first-time reader
 - [README](./README.md)
 - [FAQ](./FAQ.md)
 - [Quick Start](./quickstart.md)
 
 ### I want to try it right now
-Read:
 - [Versions](./versions.md)
 - [Quick Start](./quickstart.md)
-- [Repro in 60 Seconds](./experiments/repro-60-seconds.md)
+- [Reproduce in 60 Seconds](./experiments/repro-60-seconds.md)
 
 ### I care about experiments
-Read:
-- [Experiments](./experiments/README.md)
+- [Experiments Hub](./experiments/README.md)
 - [Phase Overview](./experiments/phase-overview.md)
 - [Showcase Cases](./experiments/showcase-cases.md)
 - [Results and Current Findings](./experiments/results-and-current-findings.md)
 
 ### I care about architecture
-Read:
 - [Dual-Layer Positioning](./dual-layer-positioning.md)
 - [Twin Atlas](../Twin_Atlas/README.md)
 - [Bridge](../Twin_Atlas/Bridge/README.md)
 
 ### I care about theory
-Read:
 - [Paper Notes](./paper/README.md)
 - [Figure Notes](./figures/README.md)
 - [Paper PDF](./paper/inverse-troubleshooting-atlas-pre-generative-governance-for-ai-legitimacy.pdf)
 
 ---
 
-## If you need one sentence for outside use 📝
+## 📝 One-Sentence Outside Description
 
-If you want one short sentence to describe this page, use this:
+If you need one short sentence to describe this page, use this:
 
-> Start Here is the fastest onboarding page for Inverse Atlas, helping new readers choose the right path based on whether they want product feeling, theory, experiments, downloads, or the larger Twin Atlas architecture.
+> Start Here is the shortest onboarding page for Inverse Atlas, helping new readers choose the right path based on whether they want product feeling, theory, experiments, downloads, or the larger Twin Atlas architecture.
 
 ---
 
-## Final Note 🌱
+## 🌱 Final Note
 
 A strong project should not require new readers to guess where to begin.
 
 That is why this page exists.
 
-Inverse Atlas already has enough layers to be interesting.
+Inverse Atlas already has enough layers to be interesting.  
 This page makes those layers easier to enter in the right order.
 
-Start simple.
-Pick the path that matches your goal.
+Start simple.  
+Pick the path that matches your goal.  
 Then go deeper only when you need to.

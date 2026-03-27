@@ -30,48 +30,44 @@ Recommended reading path:
 AI_NOTE_END
 -->
 
-# Inverse Atlas Runtime Guide
+# 🛠️ Inverse Atlas Runtime Guide
 
-> How the current Inverse Atlas MVP works in practice 🛠️
+> How the current Inverse Atlas MVP operates through its main text artifacts
 
-This page explains the **operating roles** of the four core Inverse Atlas text artifacts:
+This page explains the operating roles of the four core Inverse Atlas runtime artifacts:
 
 - `inverse-runtime.txt`
 - `inverse-demo.txt`
 - `inverse-eval.txt`
 - `inverse-cases.txt`
 
-These four files are not duplicates.
+These files are not duplicates.
 
-They are designed to work together as a small but usable MVP operating surface.
-
-In simple terms:
+They form a small but usable MVP operating surface, where each artifact performs a different job:
 
 - one file governs
 - one file demonstrates
 - one file evaluates
-- one file stresses the system
+- one file applies pressure
 
-That is the core structure of the current runtime layer.
-
----
-
-## Quick Links 🔎
-
-| Section | Link |
-|---|---|
-| Inverse Atlas Home | [README.md](./README.md) |
-| Quick Start | [quickstart.md](./quickstart.md) |
-| Dual-Layer Positioning | [dual-layer-positioning.md](./dual-layer-positioning.md) |
-| Status and Boundaries | [status-and-boundaries.md](./status-and-boundaries.md) |
-| Runtime folder notes | [runtime/README.md](./runtime/README.md) |
-| Forward Atlas | [Problem Map 3.0 Troubleshooting Atlas](../wfgy-ai-problem-map-troubleshooting-atlas.md) |
-| Twin Atlas | [Twin Atlas README](../Twin_Atlas/README.md) |
-| Future bridge | [Atlas Bridge README](../Atlas_Bridge/README.md) |
+That is the simplest correct picture of the current runtime layer.
 
 ---
 
-## The core idea of the runtime layer ⚖️
+## 🔎 Core Entry Links
+
+- [Inverse Atlas README](./README.md)
+- [Quick Start](./quickstart.md)
+- [Dual-Layer Positioning](./dual-layer-positioning.md)
+- [Status and Boundaries](./status-and-boundaries.md)
+- [Runtime Folder Notes](./runtime/README.md)
+- [Problem Map 3.0 Troubleshooting Atlas](../wfgy-ai-problem-map-troubleshooting-atlas.md)
+- [Twin Atlas README](../Twin_Atlas/README.md)
+- [Bridge](../Twin_Atlas/Bridge/README.md)
+
+---
+
+## ⚖️ The Core Idea of the Runtime Layer
 
 The Inverse Atlas runtime layer exists to enforce a different order of cognition.
 
@@ -89,7 +85,7 @@ Its intended order is:
 2. check whether the active frame is legitimate
 3. estimate structural risk
 4. review competing cuts
-5. authorize or deny resolution level
+5. authorize or deny the resolution level
 6. judge repair legality if repair is proposed
 7. clamp public output below the lawful ceiling
 
@@ -97,7 +93,7 @@ That is why the runtime layer should be understood as **pre-generative governanc
 
 ---
 
-## The four main artifacts 🧩
+## 🧩 The Four Main Artifacts
 
 ### `inverse-runtime.txt`
 This is the **main governance artifact**.
@@ -105,16 +101,14 @@ This is the **main governance artifact**.
 It defines the runtime law of the system.
 
 Its job is not to answer the user directly.  
-Its job is to control whether answering is lawful, how strong the answer may be, and which mode the answer should stay in.
+Its job is to control whether answering is lawful, how strong the answer may be, and which mode the answer should remain in.
 
-This is the file that carries the core shift:
+This is the artifact that carries the core shift:
 
 **generation is not a default right**  
 **generation is an authorized act**
 
-You should treat this file as the main operating layer of the MVP.
-
-Use it when you want the target model to actually run under Inverse Atlas behavior.
+Use this file when you want the target model to actually run under Inverse Atlas behavior.
 
 ---
 
@@ -146,7 +140,7 @@ Its role is not to generate the first answer.
 
 Its role is to judge whether a candidate answer obeys the legality logic of Inverse Atlas.
 
-That means this file is useful when:
+That makes this file useful when:
 
 - you already have one answer
 - you already have two answers and want pair comparison
@@ -162,9 +156,8 @@ This is the **minimal case pack**.
 
 Its role is to provide prompts or cases that make the value of Inverse Atlas easier to observe.
 
-These cases are useful because not every prompt reveals the difference clearly.
-
-If the prompt is too easy, too safe, or too structurally clean, the baseline and inverse-governed outputs may look too similar.
+Not every prompt reveals the difference clearly.  
+If a prompt is too easy, too safe, or too structurally clean, the baseline and inverse-governed outputs may look too similar.
 
 The case pack is meant to increase the chance that you will see:
 
@@ -178,20 +171,20 @@ Use it when you want a cleaner stress field for the MVP.
 
 ---
 
-## What each file is for, in one sentence 📝
+## 📝 What Each File Is For in One Sentence
 
 If you only remember one line for each file, remember this:
 
 - `inverse-runtime.txt` = the main law
 - `inverse-demo.txt` = the fastest demonstration
 - `inverse-eval.txt` = the legality judge
-- `inverse-cases.txt` = the stress test field
+- `inverse-cases.txt` = the stress field
 
 That is the shortest correct mental model.
 
 ---
 
-## The recommended operating order 🚀
+## 🚀 The Recommended Operating Order
 
 If you are new to the system, use this order:
 
@@ -219,13 +212,11 @@ That is the cleanest first-use flow.
 
 ---
 
-## The three main usage patterns 🧪
+## 🧪 The Three Main Usage Patterns
 
-The MVP currently supports three practical usage patterns.
+The current MVP supports three practical usage patterns.
 
-### Pattern 1. Demo-first usage
-This is the easiest path.
-
+### Pattern 1 · Demo-first usage
 Use:
 
 - `inverse-runtime.txt`
@@ -242,9 +233,7 @@ This is the default beginner path.
 
 ---
 
-### Pattern 2. Direct runtime usage
-This is the most straightforward operational path.
-
+### Pattern 2 · Direct runtime usage
 Use:
 
 - `inverse-runtime.txt`
@@ -254,15 +243,13 @@ This pattern is best when:
 
 - you already know what you want to test
 - you want to see how the runtime behaves in a real case
-- you do not need the demo scaffolding every time
+- you do not need the demo scaffold every time
 
 This is the path closest to actual runtime use.
 
 ---
 
-### Pattern 3. Evaluator usage
-This is the judgment path.
-
+### Pattern 3 · Evaluator usage
 Use:
 
 - `inverse-eval.txt`
@@ -279,7 +266,7 @@ This path is especially useful for cleaner comparisons.
 
 ---
 
-## What `inverse-runtime.txt` is expected to control 🧠
+## 🧠 What `inverse-runtime.txt` Is Expected to Control
 
 At the MVP level, the runtime is expected to control at least these things:
 
@@ -289,11 +276,11 @@ The runtime should not let the model jump to refined answers before a minimal la
 ### 2. World legitimacy
 The runtime should reduce resolution when evidence, target binding, or frame legitimacy is weak.
 
-### 3. Competing route discipline
+### 3. Competing-route discipline
 The runtime should not let one plausible route silently erase neighboring live routes.
 
 ### 4. Resolution authorization
-The runtime should keep the answer inside a lawful state, such as STOP, COARSE, UNRESOLVED, or AUTHORIZED.
+The runtime should keep the answer inside a lawful state such as STOP, COARSE, UNRESOLVED, or AUTHORIZED.
 
 ### 5. Repair legality
 If a fix is proposed, the runtime should distinguish structural repair from cosmetic repair.
@@ -305,7 +292,7 @@ This is why the runtime layer is the most important artifact in the set.
 
 ---
 
-## What `inverse-demo.txt` is expected to reveal 👀
+## 👀 What `inverse-demo.txt` Is Expected to Reveal
 
 The demo artifact is expected to reveal **difference in behavior**, not just difference in length.
 
@@ -319,13 +306,13 @@ A good demo pass often reveals one or more of these differences:
 - inverse-governed output controls confidence better
 - inverse-governed output separates route promise from actual authorization
 
-If the demo only makes one answer longer and the other shorter, that is not yet a very meaningful result.
+If the demo only makes one answer longer and the other shorter, that is not yet a meaningful result.
 
 The meaningful result is a **change in governance behavior**.
 
 ---
 
-## What `inverse-eval.txt` is expected to judge 📏
+## 📏 What `inverse-eval.txt` Is Expected to Judge
 
 The evaluator artifact is expected to judge legality under the Inverse Atlas framework.
 
@@ -335,19 +322,19 @@ That usually means judging questions like:
 - did it overclaim certainty
 - did it separate neighboring routes well enough
 - did it label cosmetic repair as structural
-- did its visible output exceed the current support ceiling
+- did visible output exceed the current support ceiling
 
-This is why evaluator usage is important.
+This is why evaluator usage matters.
 
 Without evaluator discipline, some outputs may look impressive only because they are fluent.
 
-The evaluator helps ask a harder question:
+The evaluator asks a harder question:
 
 **was the output actually lawful under the current structure?**
 
 ---
 
-## What `inverse-cases.txt` is expected to stress 🔥
+## 🔥 What `inverse-cases.txt` Is Expected to Stress
 
 The case pack should not be treated as a random prompt list.
 
@@ -368,7 +355,7 @@ You are testing whether the runtime can remain lawful under pressure.
 
 ---
 
-## How the artifacts work together 🤝
+## 🤝 How the Artifacts Work Together
 
 The four artifacts form a small operating loop.
 
@@ -391,7 +378,7 @@ Keeping them separate makes the system easier to inspect, compare, and improve.
 
 ---
 
-## Forward Atlas compatibility 🧭
+## 🧭 Forward Atlas Compatibility
 
 Inverse Atlas does not require the forward atlas in order to function.
 
@@ -401,9 +388,9 @@ But it is also designed to remain compatible with the route-first world of the f
 
 That means if a forward atlas or troubleshooting layer already suggests:
 
-- likely route
-- likely family
-- likely invariant region
+- a likely route
+- a likely family
+- a likely invariant region
 
 Inverse Atlas should treat those as **weak priors**, not final authorization.
 
@@ -411,16 +398,16 @@ This distinction matters.
 
 A route hint is not the same thing as lawful resolution.
 
-So in the twin-atlas direction:
+So in the Twin Atlas direction:
 
 - the forward atlas suggests where failure may be
 - Inverse Atlas decides whether the system is entitled to speak strongly from there
 
-This is one reason the pairing is so powerful.
+This is one of the reasons the pairing is powerful.
 
 ---
 
-## Common misuse patterns to avoid ❗
+## ❗ Common Misuse Patterns to Avoid
 
 ### Misuse 1
 Using only `inverse-demo.txt` without the runtime layer.
@@ -441,8 +428,7 @@ Easy prompts often do not expose the value of the framework clearly.
 ### Misuse 4
 Judging success by tone alone.
 
-A more lawful answer may be shorter, more coarse, or more visibly unresolved.
-
+A more lawful answer may be shorter, more coarse, or more visibly unresolved.  
 That is not failure.
 
 ### Misuse 5
@@ -452,7 +438,7 @@ The case pack is a stress field for the MVP, not a full external benchmark progr
 
 ---
 
-## A simple beginner recipe 🌟
+## 🌟 A Simple Beginner Recipe
 
 If someone asks, “What is the simplest correct way to use this MVP?”, the answer is:
 
@@ -467,7 +453,7 @@ That is the cleanest minimal recipe.
 
 ---
 
-## A simple advanced recipe 🧪
+## 🧪 A Simple Advanced Recipe
 
 If someone already has real outputs and wants a stricter comparison, use this:
 
@@ -482,25 +468,25 @@ This gives a better sense of legality difference than casual impression alone.
 
 ---
 
-## What this page does not try to do ⛔
+## ⛔ What This Page Does Not Try to Do
 
 This page does not attempt to:
 
 - reproduce the full paper
 - define the full bridge logic
-- explain the entire twin-atlas architecture
+- explain the entire Twin Atlas architecture
 - claim universal benchmark superiority
 - replace the conceptual positioning pages
 
-This page is narrower.
+Its role is narrower:
 
-Its job is to explain **how the current runtime artifacts are meant to work together**.
+**explain how the current runtime artifacts are meant to work together**
 
-That focus should be preserved.
+That focus should stay clear.
 
 ---
 
-## Where to go next 📚
+## 📚 Where to Go Next
 
 If you want the conceptual difference between route-first and legitimacy-first reasoning, go next to:
 
@@ -520,7 +506,7 @@ If you want the larger paired framing, go to:
 
 ---
 
-## Final note
+## 🌱 Final Note
 
 The current runtime layer is small, but it is already structured.
 

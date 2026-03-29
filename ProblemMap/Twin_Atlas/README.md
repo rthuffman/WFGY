@@ -1,341 +1,282 @@
+<!--
+AI_NOTE_START
+
+Document role:
+This page is the flagship landing page and canonical family hub for WFGY 4.0 Twin Atlas Engine.
+
+What this page is for:
+1. Present WFGY 4.0 as a system-level release, not as a prompt trick or isolated experiment.
+2. Explain why Forward Atlas, Bridge, and Inverse Atlas form one engine direction.
+3. Show the strongest public evidence surface of WFGY 4.0 so far.
+4. Route readers toward the detailed atlas pages, runtime constitution, and experiment pages.
+
+What this page is not:
+1. It is not the full runtime constitution.
+2. It is not the complete experiment archive.
+3. It is not a duplicate of Troubleshooting Atlas.
+4. It is not a duplicate of Inverse Atlas.
+5. It is not a claim of universal proof in every unknown production environment.
+
+Reading strategy:
+1. Read this page first for the global framing.
+2. Follow the Forward Atlas and Inverse Atlas links for the two detailed atlas surfaces.
+3. Follow the runtime links for the inspectable constitution.
+4. Follow the experiment links for the flagship evidence surfaces.
+
+Important boundary:
+This page presents WFGY 4.0 as a design-complete flagship direction with a coherent architecture and public evidence surface.
+It does not automatically prove universal superiority, universal domain completion, or full future-branch implementation.
+
+AI_NOTE_END
+-->
+
 # WFGY 4.0 Twin Atlas Engine
 
-> A route-aware and authorization-aware engine for hard reasoning tasks.
+> Before WFGY 4.0, AI systems could turn plausibility into public reality too easily. Twin Atlas is built to stop that.
 
-WFGY 4.0 Twin Atlas Engine is the next major engine line in the WFGY family.
+WFGY 4.0 Twin Atlas Engine is the flagship engine view of the WFGY atlas family.
 
-It is built around one core idea:
+It is not a larger prompt. It is not a softer answer style. It is not a decorative reasoning wrapper.
 
-**better reasoning is not only about finding a more plausible route.  
-it is also about deciding whether the system has actually earned the right to conclude that strongly yet.**
+It is a constitutional runtime that separates route discovery, legitimacy control, and operational coupling before stronger public emission is allowed.
 
-That is why Twin Atlas exists.
-
-It brings two atlas lines into one engine direction:
-
-- **Forward Atlas / Troubleshooting Atlas**
-- **Inverse Atlas**
-- and the future **Bridge** layer that couples them into a stronger closed-loop reasoning system
-
-Twin Atlas does not treat these as duplicate products.
-
-They do different jobs.
-
-The forward side improves the first structural cut.  
-The inverse side governs whether strong output is currently lawful.  
-The bridge direction exists to connect these two powers without collapsing them into one blurry layer.
+Twin Atlas exists because better reasoning is not only about finding a plausible route. It is also about deciding whether the system has actually earned the right to conclude that strongly yet.
 
 ---
 
-## What Twin Atlas is
+## What WFGY 4.0 Changes
 
-Twin Atlas is the engine view of the atlas family.
+Most systems still live in a pre-constitutional era.
 
-It is the cleanest way to understand why the forward atlas line and the inverse atlas line belong together.
+They can infer, guess, summarize, and generate, but they do not cleanly separate what seems plausible, what is structurally grounded, what is repairable, and what has actually earned the right to be emitted in public form.
 
-### Forward Atlas asks
-**Where is the failure most likely located?**
+WFGY 4.0 changes that boundary.
 
-### Inverse Atlas asks
-**Has the system actually earned the right to resolve that failure this strongly yet?**
-
-That is the smallest correct form of the Twin Atlas idea.
-
-One layer improves where the system looks.  
-One layer improves when and how strongly the system is allowed to conclude.
+In Twin Atlas, a plausible route is not automatically a lawful conclusion, a repair candidate is not automatically a structural repair, and a cleaner answer is not automatically a more legitimate answer. The engine is designed to stop those collapses before they become public output.
 
 ---
 
-## Why WFGY 4.0 needs both sides
+## The Three-Part Engine
 
-A reasoning system can fail in at least two major ways.
+Twin Atlas unifies three distinct powers into one engine direction:
 
-### Failure type 1
-It looks in the wrong structural region.
+1. route-first structural orientation  
+2. legitimacy-first generation governance  
+3. advisory-only operational coupling  
 
-### Failure type 2
-It speaks too strongly before lawful support exists.
+These are not duplicate functions. They are different powers in the same runtime.
+
+### Forward Atlas
+
+**Forward Atlas**, the Twin Atlas engine name for **Troubleshooting Atlas / Problem Map 3.0**, is the route-first side of the system.
+
+Its job is to improve the first structural cut. It asks where the failure most likely lives, which neighboring routes are still competing, what broken invariant appears to be driving the case, and what first repair move is most structurally justified under current evidence.
+
+Forward Atlas does not own final authorization.
+
+### Bridge
+
+**Bridge** is the advisory-only coupling layer.
+
+Its job is to carry route value forward without converting route plausibility into authorization. It preserves structural routing value, preserves live competing pressure when it still matters, strips rhetorical inflation, and passes route information into the governance side as weak priors only.
+
+Bridge exists because conceptual pairing is not the same thing as lawful handoff.
+
+### Inverse Atlas
+
+**Inverse Atlas** is the legitimacy-first side of the engine.
+
+Its job is to determine whether the current answer has actually earned the right to exist at the requested level of specificity, confidence, repair finality, and public strength. It governs authorization mode, repair legality, lawful downgrade, restart, and emission ceiling.
+
+Inverse Atlas is not a style layer. It is a governance layer.
+
+---
+
+## Why WFGY 4.0 Needs Both Atlas Lines
+
+A reasoning system can fail in at least two different ways.
+
+First, it can look in the wrong structural region. Second, it can speak too strongly before lawful support exists.
 
 These are not the same failure.
 
-A model can fail because it routed badly.
+A route-first system alone can still over-resolve, over-claim, erase still-live neighboring cuts, or present cosmetic repair as if it were structural. A legitimacy-first system alone can still begin from a weak first cut and spend its caution budget protecting the wrong route.
 
-But a model can also fail because it over-resolved, over-claimed, erased still-live neighboring cuts, or presented cosmetic repair as if it were structural repair.
-
-That is why one atlas line is not enough.
-
-A route-first system alone still risks illegitimate output.  
-A legitimacy-first system alone still risks weak first targeting.
-
-Twin Atlas exists because both failures matter.
+Twin Atlas exists because both failures matter at the same time.
 
 ---
 
-## Engine definition
+## Why Bridge Had To Be Invented
 
-**WFGY 4.0 Twin Atlas Engine** is defined at the effective-layer level as:
+Forward Atlas and Inverse Atlas are not two copies of the same idea. One improves where the system looks. The other governs when and how strongly the system is allowed to conclude.
 
-- **Forward Atlas**
-- **Bridge**
-- **Inverse Atlas**
+But those two powers cannot simply be placed side by side and assumed to work. Without a disciplined coupling layer, route plausibility leaks into authorization, candidate repair leaks into structural repair language, and cleaner transfer language starts to behave like silent approval.
 
-The forward layer produces route priors.  
-The inverse layer governs authorization.  
-The bridge layer transfers route value into the inverse layer as **weak priors only**, not as authorization.
+Bridge exists to stop that leak while still allowing operational handoff.
 
-This distinction matters.
-
-A plausible route is not the same thing as a lawful conclusion.  
-A promising repair direction is not the same thing as a structurally authorized repair claim.
-
-Twin Atlas keeps that difference explicit.
+That is why Bridge is not a cosmetic middle layer. It is the membrane that lets the two atlas lines become one engine without collapsing into one blurry reasoning shell.
 
 ---
 
-## The role of Forward Atlas
+## What Each Side Contributes
 
-Forward Atlas is the route-first side of the engine.
+### Forward Atlas contributes
 
-Its job is to improve the first structural move.
+- first-cut structural routing  
+- broken invariant localization  
+- neighboring-route separation  
+- first repair direction discipline  
+- misrepair awareness under thin evidence  
 
-That includes things like:
+### Bridge contributes
 
-- identifying the likely failure family
-- identifying the likely broken invariant region
-- separating nearby lookalike routes
-- choosing a better first repair direction
-- reducing ad hoc guessing during troubleshooting
-- staying honest under thin evidence
+- weak-prior transfer  
+- no-inflation handoff  
+- route preservation without authorization leak  
+- coupling between route discovery and governance review  
 
-Its core question is:
+### Inverse Atlas contributes
 
-**is the system looking in the right place?**
+- problem constitution  
+- pre-emission legitimacy control  
+- neighboring-cut survival review  
+- repair-legality review  
+- lawful stopping, downgrade, and ceiling discipline  
 
-This is why the forward layer is powerful in troubleshooting, debugging, RAG diagnosis, workflow failure analysis, and agent breakdown cases.
-
-A wrong first cut often leads to a wrong first repair.  
-Forward Atlas exists to improve that first cut.
-
----
-
-## The role of Inverse Atlas
-
-Inverse Atlas is the legitimacy-first side of the engine.
-
-Its job is to govern whether the current answer is actually entitled to exist at the requested level of specificity, confidence, and public strength.
-
-That includes things like:
-
-- whether the problem has been constituted clearly enough
-- whether the current world frame is legitimate enough
-- whether neighboring routes are still materially alive
-- whether a proposed repair is structural or merely cosmetic
-- whether visible output exceeds the lawful support ceiling
-
-Its core question is:
-
-**has the system actually earned the right to resolve this yet?**
-
-This is why Inverse Atlas is not just a softer prompt, a style layer, or a caution wrapper.
-
-It is a governance layer.
+Together, these three pieces form an engine that can show both what the system is structurally seeing and what the system is lawfully allowed to say.
 
 ---
 
-## The role of Bridge
+## Flagship Evidence
 
-Bridge is the coupling layer between the two atlas lines.
+Twin Atlas is not presented here as pure theory.
 
-Its role is not to answer.  
-Its role is not to authorize.  
-Its role is not to replace either side.
+WFGY 4.0 already includes a flagship governance stress test designed to evaluate a failure class that ordinary benchmarks often underexpose: high-pressure cases where a model is forced to commit, forced to pick one answer, and pressured to cross evidence boundaries before it has earned the right to do so.
 
-Its role is to:
+### Flagship delta
 
-- normalize forward routing output
-- preserve structural routing value
-- remove rhetorical inflation
-- pass route information into the inverse side as weak priors
-- force fresh authorization before visible escalation
+A representative summarized run currently shows:
 
-In simple terms:
+- **Illegal Commitment: 10 -> 0**
+- **Evidence Boundary Violation: 10 -> 0**
+- **Single-Cause Compression: 5 -> 0**
+- **Appearance-as-Evidence Failure: 3 -> 0**
+- **Contradiction Suppression: 7 -> 0**
+- **Lawful Downgrade: 2 -> 12**
 
-- the forward side says which route looks stronger
-- the bridge carries that route carefully
-- the inverse side decides whether the system is actually allowed to speak that strongly yet
+This is not just a softer answer style.
 
-This is the direction that turns conceptual pairing into operational coupling.
+It is a shift from pressure-driven closure toward lawful downgrade, competing-route preservation, and ceiling-respecting output.
 
----
+### What the suite is actually testing
 
-## Why the pairing is stronger than either side alone
+The current suite spans 12 high-risk cases across medicine, finance, law and HR, security, business decision-making, and authenticity evaluation.
 
-When the two atlas lines stand together, the system gains a better chance of doing three hard things at the same time.
+The point is not generic knowledge accuracy.
 
-### 1. Better first diagnosis
-The forward atlas improves route quality and first structural targeting.
+The point is whether a model:
 
-### 2. Better restraint under uncertainty
-Inverse Atlas reduces fake closure, false confidence, and unlawful over-resolution.
+- over-commits under forced-decision pressure  
+- compresses live alternatives into one cause  
+- mistakes surface appearance for evidence  
+- suppresses contradiction  
+- exceeds lawful output ceiling  
 
-### 3. Better repair discipline
-The forward layer helps locate the likely structural zone.  
-The inverse layer helps judge whether a proposed repair actually touches that zone lawfully.
+### Representative stress families
 
-So the combined effect is not just “more pages” or “more prompts.”
+#### Attribution under weak evidence
+The system is pressured to name one person or one source without a complete evidence chain.
 
-It is a more disciplined reasoning engine.
+#### Multi-causal compression
+The system is pressured to collapse a multi-factor business or technical event into one exact root cause.
 
-In simple terms:
+#### Appearance-as-evidence failure
+The system is pressured to treat polished presentation, logos, named experts, or professional surface detail as if they were already proof.
 
-- one helps the system aim better
-- one helps the system stop bluffing when support is not there
+### Experimental surfaces
 
-That combination becomes especially valuable in hard reasoning tasks.
+- Governance Stress Test Overview  
+- Stress Suite Protocol  
+- Results Summary  
+- Flagship Cases  
+- Evaluator Notes  
 
----
-
-## What Twin Atlas is designed for
-
-Twin Atlas is designed for tasks where wrong confidence is expensive.
-
-Typical use cases include:
-
-- complex troubleshooting
-- multi-step debugging
-- RAG failure analysis
-- agent workflow diagnosis
-- scientific and research-oriented reasoning
-- long-context ambiguity management
-- structural repair evaluation
-- hard cases where the first wrong cut creates large downstream cost
-
-Twin Atlas is not trying to turn every casual answer into a heavy runtime.
-
-It is for cases where route quality, authorization discipline, and repair legality actually matter.
+> Launch note:
+> These experiment pages are part of the WFGY 4.0 release surface and should be treated as flagship evidence, not as side appendix material.
 
 ---
 
-## A simple mental model
+## What Twin Atlas Refuses To Collapse Into
 
-If you want the shortest memory aid, use this:
+Twin Atlas refuses to collapse route into authorization.
 
-### Forward Atlas
-The map.
+It refuses to collapse candidate repair into structural repair.
 
-### Inverse Atlas
-The permission system.
+It refuses to collapse hidden orchestration into public law.
 
-The map helps the system see where it may need to go.  
-The permission system decides whether it is actually allowed to claim arrival.
+It refuses to collapse cleanliness into legitimacy.
 
-That model stays useful even as the engine grows more advanced.
+It refuses to collapse one strong-looking route into universal closure.
 
----
+That is why Twin Atlas is not a prompt trick, not a larger chat persona, not a duplicate of Troubleshooting Atlas, and not a duplicate of Inverse Atlas.
 
-## Current status and honesty boundary
-
-Twin Atlas should be understood honestly.
-
-What is fair to say now:
-
-- the forward atlas and inverse atlas already form a meaningful pair
-- they already have a clean conceptual division of labor
-- they are already stronger together than either side alone at the product-line level
-- Twin Atlas is already the correct family-level and engine-level framing for the pair
-- the bridge direction is already visible as the next architectural step
-
-What should not yet be claimed carelessly:
-
-- that every future bridge runtime is already fully implemented
-- that every closed-loop operational detail is already finished
-- that conceptual pairing is already the same thing as full operational fusion
-- that the current stage already proves universal superiority in every environment
-
-This matters because architecture becomes stronger when it stays honest.
-
-Twin Atlas is already more than two unrelated pages.  
-It is also still less than a fully finished everything-engine.
-
-That middle position is the correct one.
+It is the engine-level view of the family. The detailed route-first practical surface still belongs to Troubleshooting Atlas. The detailed legitimacy-first governance surface still belongs to Inverse Atlas. Bridge exists so that these two powers can become operationally coupled without losing their boundaries.
 
 ---
 
-## What makes WFGY 4.0 different
+## Where To Start
 
-Many systems try to improve answers.
+If you want the practical route-first entry point, start with **Troubleshooting Atlas**.
 
-Twin Atlas tries to improve the legality of strong answers.
+If you want the legitimacy-first governance side, start with **Inverse Atlas**.
 
-That difference matters.
+If you want the full engine framing that explains why both atlas lines and Bridge belong to one system, start here with **Twin Atlas**.
 
-The engine is built around a stricter sequence:
-
-1. improve the structural cut
-2. test whether that cut is actually strong enough to authorize the current resolution level
-3. check whether repair claims are truly structural
-4. keep final visible output below the current legitimacy ceiling
-
-That is a different philosophy from simply answering earlier and cleaning up later.
-
-Twin Atlas does not assume that generation is a default right.  
-It treats strong output as something that must be earned.
+This page is the canonical family hub. It gives the global view first, then routes readers into the detailed route-first and legitimacy-first surfaces.
 
 ---
 
-## Recommended reading order
+## Current Status And Honesty Boundary
 
-If you are new and want the cleanest reading path, use this order:
+Twin Atlas does not need inflated claims.
 
-1. [Forward Atlas / Troubleshooting Atlas](./wfgy-ai-problem-map-troubleshooting-atlas.md)
-2. [Inverse Atlas README](./Inverse_Atlas/README.md)
-3. [Inverse Atlas Quick Start](./Inverse_Atlas/quickstart.md)
-4. [Inverse Atlas Runtime Guide](./Inverse_Atlas/runtime-guide.md)
-5. [Dual-Layer Positioning](./Inverse_Atlas/dual-layer-positioning.md)
-6. [Status and Boundaries](./Inverse_Atlas/status-and-boundaries.md)
-7. return to this Twin Atlas page
-8. continue to [Atlas Bridge](./Atlas_Bridge/README.md)
+Its real claim is already large enough: it defines a coherent engine-level boundary between route discovery, legitimacy control, and lawful public emission.
 
-That order works well because it lets readers understand each side separately before trying to understand the pair and the bridge direction.
+WFGY 4.0 should be presented honestly as a design-complete flagship direction with a coherent layered constitution, a real coupling logic, and an increasingly strong evidence surface.
+
+That does not automatically mean universal proof in every domain, every future branch, or every unknown production environment.
+
+That honesty boundary is not a weakness. It is part of the architecture.
 
 ---
 
-## Quick links
+## Closing
 
-| Section | Link |
-|---|---|
-| Forward Atlas | [Problem Map 3.0 Troubleshooting Atlas](./wfgy-ai-problem-map-troubleshooting-atlas.md) |
-| Inverse Atlas Home | [Inverse Atlas README](./Inverse_Atlas/README.md) |
-| Quick Start | [Quick Start](./Inverse_Atlas/quickstart.md) |
-| Runtime Guide | [Runtime Guide](./Inverse_Atlas/runtime-guide.md) |
-| Dual-Layer Positioning | [Dual-Layer Positioning](./Inverse_Atlas/dual-layer-positioning.md) |
-| Status and Boundaries | [Status and Boundaries](./Inverse_Atlas/status-and-boundaries.md) |
-| Runtime Layer | [Runtime Artifacts](./Inverse_Atlas/runtime/README.md) |
-| Paper Notes | [Paper Notes](./Inverse_Atlas/paper/README.md) |
-| Figure Notes | [Figure Notes](./Inverse_Atlas/figures/README.md) |
-| Atlas Bridge | [Atlas Bridge](./Atlas_Bridge/README.md) |
+WFGY 4.0 does not merely improve reasoning.
+
+It changes the conditions under which an AI conclusion is allowed to enter public reality.
+
+That is the Twin Atlas shift: not merely better answers, but a stronger boundary between route, legitimacy, repair, and public emission.
 
 ---
 
-## One sentence for outside use
+## Quick Links
 
-> WFGY 4.0 Twin Atlas Engine is a paired reasoning engine that combines route-first structural mapping with legitimacy-first output governance.
+### Core family pages
+- [Troubleshooting Atlas / Forward Atlas](../wfgy-ai-problem-map-troubleshooting-atlas.md)
+- [Inverse Atlas](../Inverse_Atlas/README.md)
 
----
+### Twin Atlas local pages
+- [Quickstart](./quickstart.md)
+- [Architecture](./architecture/README.md)
+- [Runtime](./runtime/README.md)
+- [Experiments](./experiments/README.md)
+- [FAQ](./FAQ.md)
+- [Status and Boundaries](./status-and-boundaries.md)
+- [Related Documents](./related-documents.md)
 
-## Final note
-
-Twin Atlas exists to prevent a very common mistake:
-
-thinking that better routing alone is enough,  
-or thinking that better caution alone is enough.
-
-Neither is enough by itself.
-
-The forward atlas helps the system look in a better place.  
-The inverse atlas helps the system earn the right to conclude.  
-The bridge direction exists to couple these two powers into a stronger engine.
-
-That is why Twin Atlas is not just a label.
-
-It is the engine identity of the atlas family inside WFGY 4.0.
+### Release surfaces
+- [Twin Atlas Runtime Constitution](./runtime/twin-atlas-runtime-constitution.md)
+- [Governance Stress Test](./experiments/governance-stress-test.md)
+- [Results Summary](./experiments/results-summary.md)
+- [Flagship Cases](./experiments/flagship-cases.md)

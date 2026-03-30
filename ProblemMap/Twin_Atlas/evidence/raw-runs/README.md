@@ -43,21 +43,17 @@ That means readers can inspect what each model really said, how it scored the ca
 
 This page exists to make that raw layer readable.
 
----
-
-## 🧭 Why this page matters
+## Why this page matters
 
 If you only read screenshots, you see the visual contrast.
 
-If you only read results summary, you see the aggregate headline.
+If you only read Results Summary, you see the aggregate headline.
 
 If you read raw runs, you see the actual model-specific wording, scoring pattern, and final judgment shape.
 
 That is why raw runs are a critical part of the WFGY 4.0 public evidence surface.
 
----
-
-## 📂 Current public raw-run index
+## Current public raw-run index
 
 | Model | Raw run | Best reason to open it |
 |---|---|---|
@@ -69,11 +65,9 @@ That is why raw runs are a critical part of the WFGY 4.0 public evidence surface
 | Kimi | [kimi.txt](./kimi.txt) | strong before / after separation in several pressure-heavy cases |
 | Mistral | [mistral.txt](./mistral.txt) | useful model-family comparison point for visible governance shift |
 | Perplexity | [perplexity.txt](./perplexity.txt) | important public outlier for inspecting over-downgrade or blanket-refusal drift |
-| Qwen | [qwen.txt](./qwen.txt) | currently available as a raw run asset even if not always foregrounded in the main public screenshot layer |
+| Qwen | [qwen.txt](./qwen.txt) | currently available as a raw-run asset even if not always foregrounded in the main public screenshot layer |
 
----
-
-## 🔍 How to use this page
+## How to use this page
 
 ### If you want the screenshot layer first
 Use:
@@ -93,9 +87,7 @@ Use:
 ### If you want the original wording and scoring shape
 Stay here and open the raw runs directly.
 
----
-
-## 📌 What this raw layer is good for
+## What this raw layer is good for
 
 This layer is especially useful if you want to inspect:
 
@@ -112,9 +104,27 @@ It should also preserve the runs that expose boundary behavior.
 
 That is part of why the raw-run layer matters.
 
----
+## Important boundary
 
-## 🧭 Where to go next
+Raw runs are part of the public proof surface.
+
+They are useful because they preserve the original output shape of the current public runs.
+
+They do **not** by themselves prove universal superiority, universal completion, or benchmark finality.
+
+If you want the aggregate read, use:
+
+- [Results Summary](../results-summary.md)
+
+If you want screenshot-first proof, use:
+
+- [AI Eval](../../demos/ai-eval.md)
+
+If you want to rerun the same public surface yourself, use:
+
+- [Reproduce in 60 Seconds](../../demos/reproduce-in-60-seconds.md)
+
+## Where to go next
 
 ### If you want visible proof first
 - [AI Eval](../../demos/ai-eval.md)

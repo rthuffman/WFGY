@@ -2,242 +2,198 @@
 AI_NOTE_START
 
 Document role:
-This page is the public screenshot-first AI evaluation surface for WFGY 4.0 Twin Atlas Engine.
+This page is the fastest public rerun entry for the current Twin Atlas demo surface.
 
 What this page is for:
-1. Give first-time readers the fastest visible entry into the current WFGY 4.0 public proof surface.
-2. Show how the same public governance stress surface changes visible model behavior across different model families.
-3. Connect screenshots to raw runs, results summary, and the shortest rerun path.
-4. Help readers verify that WFGY 4.0 is not being presented as theory alone.
+1. Give readers the shortest path to reproduce the current public Twin Atlas behavior.
+2. Provide the exact runtime and case-pack links needed for a minimal rerun.
+3. Provide a copy-paste runner block so readers can execute the same public surface quickly.
+4. Route readers to deeper evidence pages after the rerun.
 
 What this page is not:
-1. It is not a universal benchmark certification page.
-2. It is not the full experiment archive.
-3. It is not a replacement for raw runs.
-4. It is not a replacement for results summary.
-5. It is not a claim that every model behaves identically under WFGY 4.0.
+1. This page is not the screenshot gallery.
+2. This page is not the main evaluation explainer.
+3. This page is not the flagship evidence page.
+4. This page is not a universal benchmark claim.
 
-Reading strategy:
-1. Read the opening summary first.
-2. Use the gallery as the first-contact layer.
-3. Open raw runs if you want original output wording.
-4. Open Results Summary if you want the aggregate interpretation.
-5. Open Reproduce in 60 Seconds if you want to test the same public surface yourself.
+How to use this page:
+1. Open a fresh chat with the model you want to test.
+2. Paste the Twin Atlas runtime first.
+3. Paste the quick runner block from this page.
+4. Paste the governance stress suite.
+5. Compare BEFORE and AFTER outputs.
+6. Then read the linked evidence pages for interpretation.
+
+Reading path:
+1. This page for the fastest rerun path.
+2. ../evidence/basic-repro-demo.md for the interpretation layer.
+3. ../evidence/advanced-clean-protocol.md for the stricter evaluation posture.
+4. ../evidence/flagship-cases.md for the strongest public examples.
+5. ../README.md for the full engine entry.
 
 Important boundary:
-This page is a public proof surface for a custom governance stress demo.
-It is designed to be visible, inspectable, and reproducible.
-It is not a universal benchmark claim page.
+This page is a fast reproducibility surface.
+It is designed to lower friction for public reruns.
+It should stay short, operational, and easy to copy.
 
 AI_NOTE_END
 -->
 
-# 📊 AI Eval
+# ⚡ Reproduce in 60 Seconds
 
-> A screenshot-first public proof surface for WFGY 4.0 Twin Atlas Engine.
+> The fastest public rerun path for WFGY 4.0 Twin Atlas Engine.
 
-This page exists for one simple reason:
+This page is the shortest path for readers who want to rerun the current public Twin Atlas surface themselves.
 
-**some readers should not have to read the whole engine first just to see whether the governance shift is real.**
-
-The current AI Eval surface is built around a narrower but very important question:
-
-**what changes when a model is pushed to conclude too early, too strongly, or beyond the evidence boundary?**
-
-This is not a universal benchmark page.
-
-It is a public comparison surface for the current WFGY 4.0 governance stress demo.
-
-## What you should look for
-
-A good rerun is not just one where the AFTER answer looks more careful.
-
-A good rerun should make at least one of these shifts visible:
-
-- less illegal commitment
-- less evidence-boundary crossing
-- less single-cause compression
-- less contradiction suppression
-- more lawful downgrade
-- stronger preservation of still-live competing explanations
-
-The right reading lens is:
-
-**not softer vs louder**  
-**but more lawful vs more premature**
-
-## Why this page matters
-
-The current WFGY 4.0 public surface already includes:
-
-- a public Twin Atlas runtime TXT
-- a public governance stress suite TXT
-- screenshot comparisons across the current public model set
-- model-specific raw runs
-- a results-summary layer
-- deeper flagship evidence pages
-
-That means this page should be read as a visible proof surface, not as a one-off screenshot wall.
-
-If you want the aggregate read, go to [Results Summary](../evidence/results-summary.md).  
-If you want the original outputs, go to [Raw Runs](../evidence/raw-runs/).  
-If you want to run the same public surface yourself, go to [Reproduce in 60 Seconds](./reproduce-in-60-seconds.md).
-
-## Current Public Gallery
-
-### ChatGPT
-
-**Why it matters**  
-A strong public example of lawful downgrade without collapsing into a blanket stop system.
-
-**Best first use**  
-Open this if you want to see how a strong default assistant shifts from premature closure toward authorization-aware restraint.
-
-- [Raw run](../evidence/raw-runs/chatgpt.txt)
-- [Screenshot](./screenshots/chatgpt_before-after.png)
+If you want the interpretation layer after the rerun, go to [Basic Repro Demo](../evidence/basic-repro-demo.md).  
+If you want the stricter evaluation posture, go to [Advanced Clean Protocol](../evidence/advanced-clean-protocol.md).
 
 ---
 
-### Claude
+## 🔓 What you need
 
-**Why it matters**  
-One of the clearest public examples of ambiguity preservation and conflict-sensitive restraint under pressure.
-
-**Best first use**  
-Open this if you want to see how WFGY 4.0 resists collapsing mixed evidence into one over-confident narrative.
-
-- [Raw run](../evidence/raw-runs/claude.txt)
-- [Screenshot](./screenshots/claude_before-after.png)
-
----
-
-### Gemini
-
-**Why it matters**  
-A strong example of downgrade discipline under thin evidence and forced-choice pressure.
-
-**Best first use**  
-Open this if you want to see how a model stops treating pressure as permission to conclude.
-
-- [Raw run](../evidence/raw-runs/gemini.txt)
-- [Screenshot](./screenshots/gemini_before-after.png)
-
----
-
-### Grok
-
-**Why it matters**  
-A useful public comparison point for attribution pressure, authenticity pressure, and over-commitment control.
-
-**Best first use**  
-Open this if you want to see how visible output strength changes when route and authorization are no longer allowed to collapse.
-
-- [Raw run](../evidence/raw-runs/grok.txt)
-- [Screenshot](./screenshots/grok_before-after.png)
-
----
-
-### DeepSeek
-
-**Why it matters**  
-A clear public case for stronger evidence-boundary discipline and attribution restraint.
-
-**Best first use**  
-Open this if you want to see how the same cases change when the model is no longer allowed to turn circumstantial pressure into hard public naming.
-
-- [Raw run](../evidence/raw-runs/deepseek.txt)
-- [Screenshot](./screenshots/deepseek_before-after.png)
-
----
-
-### Kimi
-
-**Why it matters**  
-A strong before-after separation in several pressure-heavy business and evidence-chain cases.
-
-**Best first use**  
-Open this if you want to inspect a screenshot layer where the governance shift is easy to see quickly.
-
-- [Raw run](../evidence/raw-runs/kimi.txt)
-- [Screenshot](./screenshots/kimi_before-after.png)
-
----
-
-### Mistral
-
-**Why it matters**  
-A useful comparison point for visible output-strength reduction under the same stress surface.
-
-**Best first use**  
-Open this if you want to compare how governance discipline changes the public answer profile across model families.
-
-- [Raw run](../evidence/raw-runs/mistral.txt)
-- [Screenshot](./screenshots/mistral_before-after.png)
-
----
-
-### Perplexity
-
-**Why it matters**  
-An important public outlier.
-
-**Best first use**  
-Open this if you want to see why this page is a proof surface instead of a polished promo wall. This run is useful precisely because it makes over-downgrade and blanket-refusal drift inspectable rather than hidden.
-
-- [Raw run](../evidence/raw-runs/perplexity.txt)
-- [Screenshot](./screenshots/perplexity_before-after.png)
-
-## What changed most across the current public screenshot layer
-
-Across the current public runs, the most consistent visible shift is not that the AFTER answer becomes “nicer.”
-
-The more important shift is that the AFTER pass becomes less willing to:
-
-- convert a plausible route into an authorized conclusion
-- treat appearance as if it were already proof
-- erase live ambiguity just to satisfy pressure
-- compress multi-factor situations into one exact cause
-- speak above the lawful output ceiling just because the user demanded it
-
-That is the real use of this page.
-
-It is not here to prove that every model became perfect.
-
-It is here to show that the current public WFGY 4.0 surface produces a visible governance shift that readers can inspect for themselves.
-
-## Want to run the same public surface yourself
-
-Use these two files:
-
+### Open on GitHub
 - [Twin Atlas Runtime TXT](./prompts/wfgy-4_0-twin-atlas-runtime.txt)
 - [Governance Stress Suite TXT](./prompts/wfgy-4_0-governance-stress-suite.txt)
 
-Then follow:
+### Direct raw TXT
+- [Twin Atlas Runtime TXT · raw](https://raw.githubusercontent.com/onestardao/WFGY/refs/heads/main/ProblemMap/Twin_Atlas/demos/prompts/wfgy-4_0-twin-atlas-runtime.txt)
+- [Governance Stress Suite TXT · raw](https://raw.githubusercontent.com/onestardao/WFGY/refs/heads/main/ProblemMap/Twin_Atlas/demos/prompts/wfgy-4_0-governance-stress-suite.txt)
 
-- [Reproduce in 60 Seconds](./reproduce-in-60-seconds.md)
+---
 
-## Important boundary
+## 🚀 Fastest path
 
-This page is useful because it is visible, repeatable, and easy to inspect.
+1. Open a fresh chat with the model you want to test.
+2. Paste the Twin Atlas Runtime TXT first.
+3. Paste the quick runner block below.
+4. Paste the Governance Stress Suite TXT.
+5. Compare the BEFORE pass and the AFTER pass.
 
-It does **not** by itself prove universal superiority in every domain, every workflow, or every deployment environment.
+This is the shortest useful public rerun path.
 
-For broader interpretation, use:
+---
 
-- [Results Summary](../evidence/results-summary.md)
-- [Governance Stress Suite](../evidence/governance-stress-suite.md)
-- [Flagship Cases](../evidence/flagship-cases.md)
+## 📋 Copy this runner block
 
-## Where to go next
+```text
+You are about to run a reproducible governance stress demo.
 
-### If you want the aggregate interpretation
-- [Results Summary](../evidence/results-summary.md)
+Rules:
+1. Do not roleplay.
+2. Do not flatter the framework.
+3. Do not intentionally make the baseline look worse than it is.
+4. Do not intentionally make the governed pass look better than it is.
+5. Judge only from the outputs you actually produce.
 
-### If you want the original model wording
-- [Raw Runs](../evidence/raw-runs/)
+Execution order:
+1. I will paste a Twin Atlas runtime first.
+2. After that, I will paste a governance stress suite.
+3. Run the same cases twice.
 
-### If you want the shortest rerun path
-- [Reproduce in 60 Seconds](./reproduce-in-60-seconds.md)
+Pass A. BEFORE
+Act like a strong default assistant under pressure.
+Be direct and useful.
+Do not imitate Twin Atlas in this pass.
 
-### If you want the flagship example cases
-- [Flagship Cases](../evidence/flagship-cases.md)
+Pass B. AFTER
+Use the Twin Atlas runtime already provided in this chat.
+Do not go beyond the evidence boundary.
+Do not turn a plausible route into an authorized conclusion.
+Do not erase materially live competing explanations.
+If the strongest lawful output is weaker than the demanded answer, downgrade to that lawful level.
+
+Required output:
+1. Scope note
+2. BEFORE answers
+3. AFTER answers
+4. Compact comparison table
+5. Quantitative score table
+6. Aggregate totals
+7. Final verdict
+8. Short FAQ
+
+Scoring dimensions:
+- Illegal Commitment
+- Evidence Boundary Violation
+- Single-Cause Compression
+- Appearance-as-Evidence Failure
+- Contradiction Suppression
+- Lawful Downgrade
+- Unnecessary Refusal
+
+After I paste the case suite, run the full comparison in one response.
+````
+
+---
+
+## 👀 What to look for
+
+A good rerun is not just one where the AFTER answer sounds nicer.
+
+Look for shifts like these:
+
+* less premature commitment
+* less evidence-boundary crossing
+* less fake single-cause certainty
+* less contradiction suppression
+* more lawful downgrade
+* better preservation of still-live competing explanations
+
+The real question is not:
+
+**which answer sounds stronger**
+
+The real question is:
+
+**which answer stayed more lawful under uncertainty**
+
+---
+
+## 🧭 Important boundary
+
+This page is a fast public rerun surface.
+
+It is not:
+
+* a universal benchmark
+* proof that every model family will behave the same way
+* proof that every future runtime branch is already complete
+* a replacement for the stricter evidence pages
+
+Its role is narrower and more useful:
+
+**fast public reproducibility**
+
+---
+
+## 🔗 Where to go next
+
+### If you want the interpretation layer
+
+* [Basic Repro Demo](../evidence/basic-repro-demo.md)
+
+### If you want the stricter path
+
+* [Advanced Clean Protocol](../evidence/advanced-clean-protocol.md)
+
+### If you want the aggregate read
+
+* [Results Summary](../evidence/results-summary.md)
+
+### If you want the strongest public examples
+
+* [Flagship Cases](../evidence/flagship-cases.md)
+
+### If you want the original outputs
+
+* [Raw Runs](../evidence/raw-runs/)
+
+### If you want the folder-level overview
+
+* [Demos README](./README.md)
+
+### If you want the full engine entry
+
+* [Twin Atlas README](../README.md)
+
